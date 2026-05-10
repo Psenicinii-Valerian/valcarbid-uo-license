@@ -6,6 +6,7 @@
 
 @section('doc_title', 'Car Bid Log')
 @section('doc_body')
+    <h1 class="page-title">Car Bids</h1>
     @if (count($carBidLog) > 0)
         <div class="car-bid-log">
             @foreach ($carBidLog as $carBid)

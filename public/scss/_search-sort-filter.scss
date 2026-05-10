@@ -1,3 +1,5 @@
+@use "variables";
+
 /* Filter Container */
 .filter-search-sort {
     display: none;
@@ -13,25 +15,25 @@
     display: flex;
     flex-wrap: wrap;
 
-    @include for-esm {
+    @include variables.for-esm {
         padding: 20px 20px 10px;
         justify-content: center;
     }
 
-    @include for-sm {
+    @include variables.for-sm {
         padding: 20px 20px 10px;
     }
 
-    @include for-md{
+    @include variables.for-md{
         justify-content: space-between;
         padding: 20px calc(10%) 10px;
     }
 
-    @include for-lg {
+    @include variables.for-lg {
         padding: 20px calc(13%) 10px;
     }
 
-    @include for-xl {
+    @include variables.for-xl {
         padding: 20px 10px;
     }
 }
@@ -45,7 +47,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 10px;
-    @include for-xl {
+    @include variables.for-xl {
         padding-bottom: 0;
     }
 }
@@ -56,19 +58,19 @@
     align-items: center;
     width: 300px;
 
-    @include for-sm {
+    @include variables.for-sm {
         width: 400px;
     }
     
-    @include for-md {
+    @include variables.for-md {
         width: 300px;
     }
 
-    @include for-lg {
+    @include variables.for-lg {
         width: 350px;
     }
 
-    @include for-xl {
+    @include variables.for-xl {
         width: 300px;
     }
 
@@ -98,26 +100,26 @@
     justify-content: space-between; 
 
     /* Media Queries for Responsiveness */
-    @include for-esm {
+    @include variables.for-esm {
         justify-content: center;
         flex-direction: column;
     }
 
-    @include for-sm {
+    @include variables.for-sm {
         padding: 0 100px;
     }
 
-    @include for-md {
+    @include variables.for-md {
         flex-direction: row;
         justify-content: space-between;
         padding: 0px calc(10%);
     }
 
-    @include for-lg {
+    @include variables.for-lg {
         padding: 0px calc(13%);
     }
 
-    @include for-xl {
+    @include variables.for-xl {
         padding: 0 10px;
     }
 }
@@ -156,26 +158,26 @@
         }
     }
 
-    @include for-esm {
+    @include variables.for-esm {
         width: 260px;
         margin-right: 45px;
         margin-top: 10px;
     }
 
-    @include for-sm {
+    @include variables.for-sm {
         width: 360px;
     }
     
-    @include for-md {
+    @include variables.for-md {
         margin-top: 0px;
         width: 255px;
     }
 
-    @include for-lg {
+    @include variables.for-lg {
         width: 305px;
     }
 
-    @include for-xl {
+    @include variables.for-xl {
         width: 255px;
     }
 }
@@ -200,24 +202,24 @@
         padding-left: 10px;
     }
 
-    @include for-esm {
+    @include variables.for-esm {
         width: 300px;
     }
 
-    @include for-sm {
+    @include variables.for-sm {
         width: 400px;
     }
     
-    @include for-md {
+    @include variables.for-md {
         margin-top: 0px;
         width: 300px;
     }
 
-    @include for-lg {
+    @include variables.for-lg {
         width: 350px;
     }
 
-    @include for-xl {
+    @include variables.for-xl {
         width: 300px;
     }
 }
@@ -254,16 +256,16 @@
 
 .refine-esm,
 .reset-esm {
-    @include for-esm {
+    @include variables.for-esm {
         display: flex;
         width: 125px;
     }
 
-    @include for-sm {
+    @include variables.for-sm {
         width: 150px;
     }
 
-    @include for-md {
+    @include variables.for-md {
         display: none;
     }
 }
@@ -273,47 +275,47 @@
     margin-top: 10px;
     justify-content: space-between;
 
-    @include for-esm {
+    @include variables.for-esm {
         width: 300px;
     }
 
-    @include for-sm {
+    @include variables.for-sm {
         width: 400px;
     }
 
-    @include for-md {
+    @include variables.for-md {
         display: none;
     }
 }
 
 .reset-md,
 .refine-md {
-    @include for-esm {
+    @include variables.for-esm {
         display: none;
     }
 
-    @include for-md {
+    @include variables.for-md {
         display: flex;
         margin-top: 10px;
         width: 300px;
     }
 
-    @include for-lg {
+    @include variables.for-lg {
         width: 350px;
     }
 
-    @include for-xl {
+    @include variables.for-xl {
         display: none;
     }
 }
 
 .reset-xl,
 .refine-xl {
-    @include for-esm {
+    @include variables.for-esm {
         display: none;
     }
   
-    @include for-xl {
+    @include variables.for-xl {
         display: flex;
         width: 300px;
     }

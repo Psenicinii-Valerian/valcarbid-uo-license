@@ -7,7 +7,7 @@
 @section('doc_title', 'User Messages')
 @section('doc_body')
     <div class="messages">
-        <h1 class="user-msg-header">User Messages</h1>
+        <h1 class="user-msg-header">My Messages</h1>
         @if (count($winnerFinalMessages) > 0 || count($sellerFinalMessages) > 0)
             <form action="user-messages" method="POST">
                 @csrf

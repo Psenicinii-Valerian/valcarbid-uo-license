@@ -1,3 +1,5 @@
+@use "variables";
+
 .index-warning-msg {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -20,31 +22,31 @@
     left: 50%;
     top: 11px;
 
-    @include for-esm {
+    @include variables.for-esm {
         font-size: 12px;
         letter-spacing: 0px;
         width: 250px;
         left: 52.5%;
     }
 
-    @include for-esm-2 {
+    @include variables.for-esm-2 {
         font-size: 12px;
         letter-spacing: 0px;
         width: 250px;
         left: 50%;
     }
 
-    @include for-sm {
+    @include variables.for-sm {
         left: 55%;
     }
 
-    @include for-md {
+    @include variables.for-md {
         letter-spacing: 1px;
         width: 300px;
         left: 50%;
     }
 
-    @include for-lg {
+    @include variables.for-lg {
         font-size: 14px;
         letter-spacing: 2px;
         width: 350px;

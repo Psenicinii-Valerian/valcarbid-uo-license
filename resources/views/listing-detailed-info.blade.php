@@ -15,6 +15,7 @@
         @if (session('success_msg'))
             <p id="success" class="bid-success-msg"><i class="fa-solid fa-check"></i> {{ session('success_msg') }}</p>
         @endif
+        <h1 class="page-title">Car Details</h1>
         <form action="{{ '/listing/' . $car->id }}" class="detailed-info-form" method="POST">
             @csrf
             <div class="car-detailed">

@@ -1,3 +1,5 @@
+@use "variables";
+
 .about-us {
     background-color: rgb(249, 249, 249);
     margin-top: 30px;
@@ -7,11 +9,11 @@
     justify-content: space-between;
     border-bottom: 1px solid rgb(232, 231, 231);
 
-    @include for-esm-2 {
+    @include variables.for-esm-2 {
         padding: 20px 40px 0px;
     }
 
-    @include for-md {
+    @include variables.for-md {
         padding: 20px 80px 0;
         justify-content: space-between;
     }
@@ -28,19 +30,19 @@
         color: black;
     }
 
-    @include for-esm {
+    @include variables.for-esm {
         display: flex;
         flex-direction: column;
         width: 100%;
         align-items: center;
         justify-content: center;
+        padding-bottom: 15px;
         p {
             text-align: center;
         }
-        padding-bottom: 15px;
     }
 
-    @include for-md-2 {
+    @include variables.for-md-2 {
         width: 230px;
         align-items: flex-start;
         p {
@@ -77,21 +79,21 @@
         }
     }
 
-    @include for-esm {
+    @include variables.for-esm {
         width: 100%;
         padding-bottom: 22px;
     }
 
-    @include for-esm-2 {
+    @include variables.for-esm-2 {
         width: 200px;
         margin-left: calc(5%);
     }
 
-    @include for-sm {
+    @include variables.for-sm {
         margin-left: calc(10%);
     }
 
-    @include for-md-2 {
+    @include variables.for-md-2 {
         margin-left: 0;
     }
 }
@@ -103,11 +105,11 @@
         display: flex;
         flex-direction: column;
         gap: 9px;
-        @include for-esm {
+        @include variables.for-esm {
             width: 100%;
             align-items: center;
         }  
-        @include for-md-2 {
+        @include variables.for-md-2 {
             width: 100%;
             align-items: flex-end;
         }  
@@ -127,21 +129,21 @@
             color: #6fc754;
         }
     }
-    @include for-esm {
+    @include variables.for-esm {
         width: 100%;
         align-items: center;    
     }
 
-    @include for-esm-2 {
+    @include variables.for-esm-2 {
         width: 215px;
         margin-right: calc(5%);
     }
     
-    @include for-sm {
+    @include variables.for-sm {
         margin-right: calc(10%);
     }
 
-    @include for-md-2 {
+    @include variables.for-md-2 {
         margin-right: 0;
         align-items: flex-end;    
     }
@@ -156,14 +158,14 @@
     padding: 20px 80px;
     background-color:  rgb(249, 249, 249);
 
-    @include for-esm {
+    @include variables.for-esm {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
     }
 
-    @include for-esm-2 {
+    @include variables.for-esm-2 {
         flex-direction: row;
         gap: 0px;
         justify-content: space-between;
@@ -177,7 +179,7 @@
         font-size: 9px;
     }
 
-    @include for-esm {
+    @include variables.for-esm {
         p {
             width: 105px;
             text-align: center;
@@ -187,16 +189,16 @@
 }
 
 .socials {
-    @include for-esm {
+    @include variables.for-esm {
     }
 
-    @include for-sm {
+    @include variables.for-sm {
     }
 
-    @include for-md {
+    @include variables.for-md {
     }
 
-    @include for-lg {
+    @include variables.for-lg {
     }
 }
 
@@ -206,45 +208,45 @@
 }
 
 .twitter-bg {
-    border: 1px solid $twitter-color;
-    color: $twitter-color;
+    border: 1px solid variables.$twitter-color;
+    color: variables.$twitter-color;
 
     &:hover,
     &:focus {
-        background-color: $twitter-color;
+        background-color: variables.$twitter-color;
         color: white;
     }
 }
 
 .facebook-bg {
-    border: 1px solid $facebook-color;
-    color: $facebook-color;
+    border: 1px solid variables.$facebook-color;
+    color: variables.$facebook-color;
 
     &:hover,
     &:focus {
-        background-color: $facebook-color;
+        background-color: variables.$facebook-color;
         color: white;
     }
 }
 
 .pinterest-bg {
-    border: 1px solid $pinterest-color;
-    color: $pinterest-color;
+    border: 1px solid variables.$pinterest-color;
+    color: variables.$pinterest-color;
 
     &:hover,
     &:focus {
-        background-color: $pinterest-color;
+        background-color: variables.$pinterest-color;
         color: white;
     }
 }
 
 .linkedin-bg {
-    border: 1px solid $linkedin-color;
-    color: $linkedin-color;
+    border: 1px solid variables.$linkedin-color;
+    color: variables.$linkedin-color;
 
     &:hover,
     &:focus {
-        background-color: $linkedin-color;
+        background-color: variables.$linkedin-color;
         color: white;
     }
 }

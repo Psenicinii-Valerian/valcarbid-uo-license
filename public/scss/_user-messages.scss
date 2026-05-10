@@ -60,10 +60,10 @@
 }
 
 .user-message {
+    white-space: no-wrap;
     p {
         display: inline;
     }
-    white-space: no-wrap;
 }
 
 .deal-detail {

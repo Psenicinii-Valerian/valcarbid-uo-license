@@ -24,8 +24,7 @@
 }
 
 .create-form {
-  margin-top: 65px;
-  padding-top: 30px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -169,6 +168,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px; /* Adjust the gap between listings */
+  margin-top: 15px;
   margin-bottom: 40px;
   padding: 40px; /* Add padding to the entire container */
 }
@@ -180,6 +180,9 @@
 @media screen and (min-width: 768px) {
   .listings {
     padding: 40px 70px;
+  }
+  .listings.one-item-on-row {
+    justify-content: center;
   }
   .listings.two-items-on-row {
     justify-content: space-between;
@@ -193,7 +196,10 @@
   .listings {
     padding: 40px 13%;
   }
-  .listings.one-item-on-row, .listings.two-items-on-row {
+  .listings.one-item-on-row {
+    justify-content: center;
+  }
+  .listings.two-items-on-row {
     gap: 40px 0;
     justify-content: space-between;
   }
@@ -206,13 +212,16 @@
   .listings {
     padding: 40px 10%;
   }
-  .listings.one-item-on-row, .listings.two-items-on-row {
+  .listings.one-item-on-row {
+    justify-content: center;
+  }
+  .listings.two-items-on-row {
     gap: 40px 30px;
     justify-content: space-between;
   }
   .listings.three-items-on-row {
-    justify-content: flex-start;
-    gap: 40px 20%;
+    justify-content: space-between;
+    gap: 40px 0;
   }
 }
 @media screen and (min-width: 1536px) {
@@ -436,7 +445,6 @@
 }
 
 .no-listings {
-  margin-top: 80px;
   height: 48vh;
   display: flex;
   flex-wrap: wrap;
@@ -1119,9 +1127,8 @@ ul.pagination li.disabled span {
 }
 
 .car-detailed {
-  margin-top: 55px;
   display: flex;
-  padding: 30px;
+  padding: 45px;
 }
 @media screen and (min-width: 375px) {
   .car-detailed {
@@ -1536,19 +1543,10 @@ ul.pagination li.disabled span {
   width: 100%;
 }
 
-.user-bids {
-  margin-top: 65px;
-}
-
-.user-listings {
-  margin-top: 65px;
-}
-
 .car-bid-log {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 65px;
   padding: 50px;
   min-height: 50vh;
 }
@@ -1667,6 +1665,15 @@ ul.pagination li.disabled span {
 .winnerMail,
 .sellerMail {
   color: rgb(0, 0, 210);
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  margin-bottom: -15px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .bid-success-msg {

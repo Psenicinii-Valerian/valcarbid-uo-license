@@ -1,42 +1,43 @@
+@use "variables";
+
 .detailed-info-form {
-    @include for-esm {
+    @include variables.for-esm {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    @include for-xl {
+    @include variables.for-xl {
         display: block;
     }
 }
 
 .car-detailed {
-    margin-top: 55px;
     display: flex;
-    padding: 30px;
+    padding: 45px;
 
-    @include for-esm {
+    @include variables.for-esm {
         width: 100%;
         margin-left: 10px;
     }
 
-    @include for-sm {
+    @include variables.for-sm {
         margin-left: 0px;
         width: 600px;
     }
 
-    @include for-md {
+    @include variables.for-md {
         width: 750px;
     }
 
-    @include for-lg {
+    @include variables.for-lg {
         width: 850px;
     }
 
-    @include for-esm {
+    @include variables.for-esm {
         flex-direction: column;
     }
 
-    @include for-xl {
+    @include variables.for-xl {
         flex-direction: row;
     }
 }
@@ -45,38 +46,38 @@
     display: flex;
     flex-direction: column;
     position: relative;
-
-    @include for-esm {
-        margin: 0px;
-    }
-    @include for-xl {
-        margin-right: 50px;
-    }
     padding-top: 10px;
     align-items: flex-start;
 
+    @include variables.for-esm {
+        margin: 0px;
+    }
+    @include variables.for-xl {
+        margin-right: 50px;
+    }
+
     img {
-        @include for-md {
+        height: auto;
+        align-self: flex-start;
+
+        @include variables.for-md {
             width: 730px;
         }
 
-        @include for-lg {
+        @include variables.for-lg {
             width: 800px;
         }
 
-        @include for-xl {
+        @include variables.for-xl {
             min-width: 590px;
             min-height: 400px;
         }
 
-        @include for-2xl {
+        @include variables.for-2xl {
             min-height: 0px;
             min-width: 553px;
             height: auto;
         }
-
-        height: auto;
-        align-self: flex-start;
     }
 
     .arrow-btns {
@@ -92,15 +93,16 @@
 
         .left-arrow,
         .right-arrow {
-            @include for-xl {
+            display: flex;
+            align-items: center; /* Vertically center content within the divs */
+
+            @include variables.for-xl {
                 margin-right: 0px;
                 margin-bottom: 53px;
             }
-            @include for-2xl {
+            @include variables.for-2xl {
                 margin-bottom: 0px;
             }
-            display: flex;
-            align-items: center; /* Vertically center content within the divs */
 
             &:hover {
                 cursor: pointer;
@@ -116,11 +118,11 @@
         }
     }
 
-    @include for-lg {
+    @include variables.for-lg {
         margin-bottom: 10px;
     }
 
-    @include for-xl {
+    @include variables.for-xl {
         margin-bottom: 20px;
     }
 }
@@ -131,45 +133,45 @@
     width: 80%;
 
     h3 {
-        @include for-esm {
+        @include variables.for-esm {
             font-size: 15px;
             font-weight: bold;
         }
-        @include for-sm {
+        @include variables.for-sm {
             font-size: 18px;
             font-weight: bold;
         }
     }
 
-    @include for-esm {
+    @include variables.for-esm {
         width: 90%;
         align-items: flex-start;
         justify-content: center;
     }
 
-    @include for-sm {
+    @include variables.for-sm {
         width: 100%;
         align-items: flex-start;
     }
 
-    @include for-md {
+    @include variables.for-md {
         width: 70%;
         max-width: 1024px;
         align-items: flex-start;
     }
 
-    @include for-xl {
+    @include variables.for-xl {
         align-items: flex-start;
         justify-content: flex-start;
     }
 
-    @include for-esm {
+    @include variables.for-esm {
         p {
             font-size: 13px;
         }
     }
     
-    @include for-sm {
+    @include variables.for-sm {
         p {
             font-size: 16px;
         }
@@ -177,16 +179,16 @@
 }
 
 .car-main-info {
+    margin-bottom: 20px;
+
     h2 {
         font-size: 26px;
         font-weight: bold;
         letter-spacing: 3px;
         margin-bottom: -10px;
     }
-    margin-bottom: 20px;
 
-
-    @include for-lg {
+    @include variables.for-lg {
         width: 850px;
         display: flex;
         flex-direction: column;
@@ -194,7 +196,7 @@
         margin-bottom: 30px;
     }
 
-    @include for-xl {
+    @include variables.for-xl {
         margin-bottom: 15px;
         width: auto;
         display: block;
@@ -210,7 +212,7 @@
     gap: 10px;
 }
 
-@include for-esm {
+@include variables.for-esm {
     .car-secondary-info-esm {
         display: flex;
     }
@@ -224,7 +226,7 @@
     }
 }
 
-@include for-md {
+@include variables.for-md {
     .car-secondary-info-esm {
         display: none;
     }
@@ -238,7 +240,7 @@
     }
 }
 
-@include for-2xl {
+@include variables.for-2xl {
     .car-secondary-info-esm {
         display: none;
     }
@@ -256,85 +258,85 @@
     display: flex;
     flex-direction: row;
 
-    @include for-esm {
+    @include variables.for-esm {
         gap: 50px;
     }
 
-    @include for-esm-0 {
+    @include variables.for-esm-0 {
         gap: 100px;
     }
 
-    @include for-esm-1 {
+    @include variables.for-esm-1 {
         gap: 150px;
     }
 
-    @include for-esm-2 {
+    @include variables.for-esm-2 {
         gap: 215px;
     }
         
-    @include for-sm {
+    @include variables.for-sm {
         gap: 115px;
     }
     
-    @include for-md {
+    @include variables.for-md {
         gap: 50px;
     }
     
-    @include for-lg {
+    @include variables.for-lg {
         justify-content: flex-start;
         gap: 105px;
     }
 
-    @include for-xl {
+    @include variables.for-xl {
         gap: 0;
         justify-content: space-between;
     }
 }
 
 .car-detailed-info {
-    @include for-esm {
-        width: 135px;
-    }
-    @include for-sm {
-        width: 210px;
-    }
     display: flex;
     flex-direction: column;
+    @include variables.for-esm {
+        width: 135px;
+    }
+    @include variables.for-sm {
+        width: 210px;
+    }
 }
 
 .bid-buy-btns,
 .listing-owner {
-    @include for-esm {
-        width: 113%;
-    }
-    @include for-esm-1 {
-        width: 112%;
-    }
-    @include for-esm-2 {
-        width: 112%;
-    }
-    @include for-sm {
-        width: 540px;
-    }
-    @include for-md {
-        width: 690px;
-        padding-right: 0px;
-    }
-    @include for-lg {
-        width: 850px;
-        padding-right: 70px;
-    }
-    @include for-xl {
-        width: 569px;
-        padding-right: 0px;
-    }
-    @include for-2xl {
-        width: 840px;
-    }
     margin-top: 20px;
     padding-right: 5px;
     display: flex;
     justify-content: space-between;
+    @include variables.for-esm {
+        width: 113%;
+    }
+    @include variables.for-esm-1 {
+        width: 112%;
+    }
+    @include variables.for-esm-2 {
+        width: 112%;
+    }
+    @include variables.for-sm {
+        width: 540px;
+    }
+    @include variables.for-md {
+        width: 690px;
+        padding-right: 0px;
+    }
+    @include variables.for-lg {
+        width: 850px;
+        padding-right: 70px;
+    }
+    @include variables.for-xl {
+        width: 569px;
+        padding-right: 0px;
+    }
+    @include variables.for-2xl {
+        width: 840px;
+    }
     .bid-btns {
         input {
             width: 135px;

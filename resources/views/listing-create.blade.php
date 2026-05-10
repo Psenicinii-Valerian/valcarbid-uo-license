@@ -9,6 +9,7 @@
 @endsection
 @section('doc_title', 'Create Car')
 @section('doc_body')
+    <h1 class="page-title">Create a New Listing</h1>
     <form action="{{ route('listing.create') }}" enctype="multipart/form-data" method="POST" id="car-create-form"
         class="create-form">
         @csrf

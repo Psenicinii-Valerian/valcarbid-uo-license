@@ -1,29 +1,27 @@
-@import 'errors';
+@use 'errors';
 
-@import 'listing-create';
+@use 'listing-create';
 
-@import 'variables';
+@use 'variables';
 
-@import 'listings-view';
+@use 'listings-view';
 
-@import 'paginator';
+@use 'paginator';
 
-@import 'search-sort-filter';
+@use 'search-sort-filter';
 
-@import 'footer';
+@use 'footer';
 
-@import 'detailed-listing';
+@use 'detailed-listing';
 
-@import 'navbar-styling';
+@use 'navbar-styling';
 
-@import 'user-bids';
+@use 'car-bid-log';
 
-@import 'user-listings';
+@use 'user-messages';
 
-@import 'car-bid-log';
+@use 'page-title';
 
-@import 'user-messages';
+@use 'success-message';
 
-@import 'success-message';
-
-@import 'warning-message';
+@use 'warning-message';

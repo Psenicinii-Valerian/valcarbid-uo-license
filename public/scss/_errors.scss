@@ -1,18 +1,18 @@
-@import 'variables';
+@use 'variables';
 
 .error {
     color: red;
-    @include for-esm {
+    cursor: pointer;
+    @include variables.for-esm {
         width: 320px;
     }
-    @include for-sm {
+    @include variables.for-sm {
         width: 400px;
     }
-    @include for-md {
+    @include variables.for-md {
         width: 320px;
     }
-    @include for-lg {
+    @include variables.for-lg {
         width: 370px;
     }
-    cursor: pointer;
 }   
