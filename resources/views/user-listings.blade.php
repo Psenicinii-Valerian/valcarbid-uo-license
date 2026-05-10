@@ -8,8 +8,9 @@
 
 @section('doc_title', 'User Listings')
 @section('doc_body')
+    <h1 class="page-title">My Listings</h1>
     @if (count($carListings) > 0)
-    <div class="listings user-listings">
+    <div class="listings">
         @foreach ($carListings as $carListing)
             <a href="{{ '/listing/' . $carListing['car']->id }}" class="listing">
                 <img src="{{ asset($carListing['imagePath']) }}" alt="Main Car Image">
