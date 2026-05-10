@@ -33427,44 +33427,5477 @@ class CarDatabaseTableSeeder extends Seeder
                 "make" => "Volvo",
                 "model" => "XC90",
                 "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Acura",
+                "model" => "ILX",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Acura",
+                "model" => "Integra",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Acura",
+                "model" => "MDX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Acura",
+                "model" => "RDX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Acura",
+                "model" => "RLX",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Acura",
+                "model" => "TLX",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Acura",
+                "model" => "ZDX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Alfa Romeo",
+                "model" => "Giulia (952)",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Alfa Romeo",
+                "model" => "Stelvio",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Alfa Romeo",
+                "model" => "Tonale",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "AM General",
+                "model" => "MV-1",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Aston Martin",
+                "model" => "DB11",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Aston Martin",
+                "model" => "DB12",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Aston Martin",
+                "model" => "DB9",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Aston Martin",
+                "model" => "DBS",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Aston Martin",
+                "model" => "DBX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Aston Martin",
+                "model" => "Valiant",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Aston Martin",
+                "model" => "Valour",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Aston Martin",
+                "model" => "Vantage",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "A3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "A4",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "A4 allroad",
+                "body_styles" => "[\"Wagon\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "A5",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "A6",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "A6 allroad",
+                "body_styles" => "[\"Wagon\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "A7",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "A8 L",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "Q3",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "Q4",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "Q5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "Q5 e",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "Q7",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "Q8",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "R8",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "RS 3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "RS 5",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "RS 6 Avant",
+                "body_styles" => "[\"Wagon\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "RS 7",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "RS Q8",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "RS e-tron GT",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "S3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "S4",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "S5",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "S6",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "S7",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "S8",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "SQ5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "SQ7",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "SQ8",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Audi",
+                "model" => "e-tron GT",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Bentley",
+                "model" => "Bentayga",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Bentley",
+                "model" => "Continental",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Bentley",
+                "model" => "Flying Spur",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "228i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "230i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "330e",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "330i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "340i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "430i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "530i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "540i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "740i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "750e",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "760i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "840i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "ALPINA B8",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "M2",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "M235i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "M240i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "M3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "M340i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "M4",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "M440i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "M8",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "M850i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "X1",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "X2",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "X3",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "X4",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "X5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "X6",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "X7",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "XM",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "Z4",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "i4",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "i5",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "i7",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "BMW",
+                "model" => "iX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Bugatti",
+                "model" => "Chiron",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Bugatti",
+                "model" => "Chiron Pur Sport",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Bugatti",
+                "model" => "Chiron Supersport",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Bugatti",
+                "model" => "EB110",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Buick",
+                "model" => "Enclave",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Buick",
+                "model" => "Encore",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Buick",
+                "model" => "Encore GX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Buick",
+                "model" => "Envision",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Buick",
+                "model" => "Envista",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Cadillac",
+                "model" => "CT4",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Cadillac",
+                "model" => "CT5",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Cadillac",
+                "model" => "ELR",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Cadillac",
+                "model" => "Escalade",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Cadillac",
+                "model" => "Escalade ESV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Cadillac",
+                "model" => "Lyriq",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Cadillac",
+                "model" => "SRX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Cadillac",
+                "model" => "XT4",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Cadillac",
+                "model" => "XT5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Cadillac",
+                "model" => "XT6",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Aveo",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Blazer",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Blazer EV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Camaro",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Caprice Police Vehicle",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Captiva Sport",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Colorado",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Corvette",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Cruze",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Equinox",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Equinox EV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Express",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Geo Prizm",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Impala",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Malibu",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Onix",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Orlando",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "SS",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Silverado",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Silverado EV",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Silverado HD",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Silverado LD",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Silverado LTD",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Sonic",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Spark",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Suburban",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Suburban HD",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Tahoe",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Trailblazer",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Traverse",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Traverse Limited",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Trax",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chevrolet",
+                "model" => "Volt",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chrysler",
+                "model" => "300",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chrysler",
+                "model" => "Grand Caravan",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chrysler",
+                "model" => "Pacifica",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Chrysler",
+                "model" => "Voyager",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Dodge",
+                "model" => "Challenger",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Dodge",
+                "model" => "Charger",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Dodge",
+                "model" => "Durango",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Dodge",
+                "model" => "Hornet",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "296 GTB",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "296 GTS",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "812 Competizione",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "812 Competizione A",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "Daytona SP3",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "Huracan",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "Revuelto",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "Roma",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "Roma Spider",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "SF90 Spider",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "SF90 Stradale",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "SF90 XX Spider",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "SF90 XX Stradale",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ferrari",
+                "model" => "Purosangue",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Fiat",
+                "model" => "124 Spider",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Fiat",
+                "model" => "500X",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Fiat",
+                "model" => "500e",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Fisker",
+                "model" => "Karma",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Fisker",
+                "model" => "Nina",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Fisker",
+                "model" => "Ocean",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "'34",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "Bronco",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "Bronco Sport",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "Edge",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "Escape",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "Expedition",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "Expedition MAX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "Explorer",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "F-150",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "F-250",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "F-350",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "F-450",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "F-550",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "F-600",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "F-650",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "F-750",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "Maverick",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "Mustang",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "Transit",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ford",
+                "model" => "Transit Connect",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Acadia",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Canyon",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Cruise Origin AV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Hummer EV Pickup",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Hummer EV SUV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Savana",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Sierra",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Sierra EV",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Sierra HD",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Sierra Limited",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Terrain",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Yukon",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "GMC",
+                "model" => "Yukon XL",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Honda",
+                "model" => "Accord",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Honda",
+                "model" => "CR-V",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Honda",
+                "model" => "Civic",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Honda",
+                "model" => "Civic Si",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Honda",
+                "model" => "Civic Type R",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Honda",
+                "model" => "HR-V",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Honda",
+                "model" => "Odyssey",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Honda",
+                "model" => "Passport",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Honda",
+                "model" => "Pilot",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Honda",
+                "model" => "Prologue",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Honda",
+                "model" => "Ridgeline",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Accent",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Elantra",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Elantra N",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Ioniq 5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Ioniq 6",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Kona",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Kona Electric",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Kona N",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Nexo",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Palisade",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Santa Cruz",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Santa Fe",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Santa Fe XL",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Sonata",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Tucson",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Venue",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Hyundai",
+                "model" => "Xcient",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Infiniti",
+                "model" => "Q50",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Infiniti",
+                "model" => "QX50",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Infiniti",
+                "model" => "QX55",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Infiniti",
+                "model" => "QX60",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Infiniti",
+                "model" => "QX80",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Isuzu",
+                "model" => "NPR",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Isuzu",
+                "model" => "NPR/NPR-HD",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Isuzu",
+                "model" => "NQR",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Isuzu",
+                "model" => "NRR",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jaguar",
+                "model" => "E-PACE",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jaguar",
+                "model" => "F-PACE",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jaguar",
+                "model" => "F-TYPE",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jaguar",
+                "model" => "I-PACE",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jaguar",
+                "model" => "XF",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jeep",
+                "model" => "Compass",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jeep",
+                "model" => "Gladiator",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jeep",
+                "model" => "Grand Cherokee",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jeep",
+                "model" => "Grand Cherokee L",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jeep",
+                "model" => "Grand Wagoneer",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jeep",
+                "model" => "Grand Wagoneer L",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jeep",
+                "model" => "Renegade",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jeep",
+                "model" => "Wagoneer",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jeep",
+                "model" => "Wagoneer L",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jeep",
+                "model" => "Wagoneer S",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Jeep",
+                "model" => "Wrangler",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Karma",
+                "model" => "GS-6",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Karma",
+                "model" => "Revero GT",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Kia",
+                "model" => "Carnival",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Kia",
+                "model" => "EV6",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Kia",
+                "model" => "EV9",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Kia",
+                "model" => "Forte",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Kia",
+                "model" => "K5",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Kia",
+                "model" => "Niro",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Kia",
+                "model" => "Seltos",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Kia",
+                "model" => "Sorento",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Kia",
+                "model" => "Soul",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Kia",
+                "model" => "Soul EV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Kia",
+                "model" => "Sportage",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Kia",
+                "model" => "Telluride",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lamborghini",
+                "model" => "Huracan",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lamborghini",
+                "model" => "Revuelto",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lamborghini",
+                "model" => "URUS",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Land Rover",
+                "model" => "Defender",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Land Rover",
+                "model" => "Discovery",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Land Rover",
+                "model" => "Discovery Sport",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Land Rover",
+                "model" => "Range Rover",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Land Rover",
+                "model" => "Range Rover Evoque",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Land Rover",
+                "model" => "Range Rover Sport",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Land Rover",
+                "model" => "Range Rover Velar",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "ES",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "GS",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "GX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "IS",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "LC",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "LS",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "LX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "NX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "RC",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "RX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "RZ",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "TX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lexus",
+                "model" => "UX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lincoln",
+                "model" => "Aviator",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lincoln",
+                "model" => "Continental",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lincoln",
+                "model" => "Corsair",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lincoln",
+                "model" => "Navigator",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lincoln",
+                "model" => "Navigator L",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lotus",
+                "model" => "Emira",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Lucid",
+                "model" => "Air",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Maserati",
+                "model" => "Ghibli",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Maserati",
+                "model" => "Grancabrio",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Maserati",
+                "model" => "Granturismo",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Maserati",
+                "model" => "Grecale",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Maserati",
+                "model" => "Levante",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Maserati",
+                "model" => "MC20",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Maserati",
+                "model" => "Quattroporte",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Maybach",
+                "model" => "57",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Maybach",
+                "model" => "62",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mazda",
+                "model" => "CX-30",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mazda",
+                "model" => "CX-5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mazda",
+                "model" => "CX-50",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mazda",
+                "model" => "CX-9",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mazda",
+                "model" => "CX-90",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mazda",
+                "model" => "MX-30",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mazda",
+                "model" => "MX-5",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mazda",
+                "model" => "Mazda3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "McLaren",
+                "model" => "750S",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "McLaren",
+                "model" => "ARTURA",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "AMG GT",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "C-Class",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "CLA-Class",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "CLE",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "E-Class",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "EQB-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "EQE-Class SUV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "EQE-Class Sedan",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "EQS-Class SUV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "EQS-Class Sedan",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "G-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "GLA-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "GLB-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "GLC-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "GLE-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "GLS-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "L1013",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mercedes-Benz",
+                "model" => "L1113",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mini",
+                "model" => "Cooper",
+                "body_styles" => "[\"Hatchback\", \"Convertible\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mini",
+                "model" => "Countryman",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mitsubishi",
+                "model" => "Outlander",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Mitsubishi",
+                "model" => "Mirage",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Nissan",
+                "model" => "Altima",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Nissan",
+                "model" => "Rogue",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Nissan",
+                "model" => "Frontier",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Porsche",
+                "model" => "911",
+                "body_styles" => "[\"Coupe\", \"Convertible\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Porsche",
+                "model" => "Cayenne",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Porsche",
+                "model" => "Macan",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ram",
+                "model" => "1500",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Ram",
+                "model" => "2500",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Subaru",
+                "model" => "Outback",
+                "body_styles" => "[\"Wagon\", \"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Subaru",
+                "model" => "Forester",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Subaru",
+                "model" => "Crosstrek",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Toyota",
+                "model" => "Camry",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Toyota",
+                "model" => "Corolla",
+                "body_styles" => "[\"Sedan\", \"Hatchback\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Toyota",
+                "model" => "RAV4",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Toyota",
+                "model" => "Tacoma",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Toyota",
+                "model" => "Prius",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Volkswagen",
+                "model" => "Jetta",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Volkswagen",
+                "model" => "Golf GTI",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Volkswagen",
+                "model" => "Tiguan",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Volkswagen",
+                "model" => "Atlas",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Volvo",
+                "model" => "XC40",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Volvo",
+                "model" => "XC60",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2024,
+                "make" => "Volvo",
+                "model" => "XC90",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Acura",
+                "model" => "ILX",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Acura",
+                "model" => "Integra",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Acura",
+                "model" => "MDX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Acura",
+                "model" => "RDX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Acura",
+                "model" => "RLX",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Acura",
+                "model" => "TLX",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Acura",
+                "model" => "ZDX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Alfa Romeo",
+                "model" => "Giulia (952)",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Alfa Romeo",
+                "model" => "Stelvio",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Alfa Romeo",
+                "model" => "Tonale",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "AM General",
+                "model" => "MV-1",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Aston Martin",
+                "model" => "DB11",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Aston Martin",
+                "model" => "DB12",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Aston Martin",
+                "model" => "DB9",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Aston Martin",
+                "model" => "DBS",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Aston Martin",
+                "model" => "DBX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Aston Martin",
+                "model" => "Valiant",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Aston Martin",
+                "model" => "Valour",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Aston Martin",
+                "model" => "Vanquish",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Aston Martin",
+                "model" => "Vantage",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "A3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "A4",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "A4 allroad",
+                "body_styles" => "[\"Wagon\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "A5",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "A6",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "A6 allroad",
+                "body_styles" => "[\"Wagon\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "A7",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "A8 L",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "Q3",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "Q4",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "Q5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "Q5 e",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "Q6",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "Q7",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "Q8",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "R8",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "RS 3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "RS 5",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "RS 6 Avant",
+                "body_styles" => "[\"Wagon\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "RS 7",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "RS Q8",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "RS e-tron GT",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "S3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "S4",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "S5",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "S6",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "S7",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "S8",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "SQ5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "SQ6",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "SQ7",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "SQ8",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Audi",
+                "model" => "e-tron GT",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Bentley",
+                "model" => "Bentayga",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Bentley",
+                "model" => "Continental",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Bentley",
+                "model" => "Flying Spur",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "228i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "230i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "330i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "430i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "440i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "530i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "540i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "550e",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "740i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "750e",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "760i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "840i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "ALPINA B8",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "M2",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "M235i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "M240i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "M3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "M340i",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "M4",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "M440i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "M5",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "M8",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "M850i",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "X1",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "X2",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "X3",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "X4",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "X5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "X6",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "X7",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "XM",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "Z4",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "i4",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "i5",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "i7",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "BMW",
+                "model" => "iX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Bugatti",
+                "model" => "Chiron",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Bugatti",
+                "model" => "Chiron Pur Sport",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Bugatti",
+                "model" => "Chiron Supersport",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Bugatti",
+                "model" => "EB110",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Buick",
+                "model" => "Enclave",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Buick",
+                "model" => "Encore",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Buick",
+                "model" => "Encore GX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Buick",
+                "model" => "Envision",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Buick",
+                "model" => "Envista",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "CT4",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "CT5",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "Celestiq",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "ELR",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "Escalade",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "Escalade ESV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "Escalade IQ",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "Lyriq",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "Optiq",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "SRX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "XT4",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "XT5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Cadillac",
+                "model" => "XT6",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Aveo",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Blazer",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Blazer EV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "BrightDrop 400",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "BrightDrop 400, BrightDrop 600",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "BrightDrop 600",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Camaro",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Caprice Police Vehicle",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Captiva Sport",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Colorado",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Corvette",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Cruze",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Equinox",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Equinox EV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Express",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Geo Prizm",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Impala",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Malibu",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Onix",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Orlando",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "SS",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Silverado",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Silverado EV",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Silverado HD",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Silverado LD",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Silverado LTD",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Sonic",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Spark",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Suburban",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Suburban HD",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Tahoe",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Trailblazer",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Traverse",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Traverse Limited",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Trax",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chevrolet",
+                "model" => "Volt",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chrysler",
+                "model" => "300",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chrysler",
+                "model" => "Grand Caravan",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chrysler",
+                "model" => "Pacifica",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Chrysler",
+                "model" => "Voyager",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Daimler",
+                "model" => "DS",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Daimler",
+                "model" => "DT",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Dodge",
+                "model" => "Challenger",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Dodge",
+                "model" => "Charger",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Dodge",
+                "model" => "Durango",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Dodge",
+                "model" => "Hornet",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ferrari",
+                "model" => "12Cilindri",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ferrari",
+                "model" => "12Cilindri Spider",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ferrari",
+                "model" => "296 GTB",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ferrari",
+                "model" => "296 GTS",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ferrari",
+                "model" => "Daytona SP3",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ferrari",
+                "model" => "Huracan",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ferrari",
+                "model" => "Revuelto",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ferrari",
+                "model" => "Roma Spider",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ferrari",
+                "model" => "SF90 Spider",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ferrari",
+                "model" => "SF90 XX Spider",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ferrari",
+                "model" => "SF90 XX Stradale",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ferrari",
+                "model" => "Purosangue",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Fiat",
+                "model" => "124 Spider",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Fiat",
+                "model" => "500",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Fiat",
+                "model" => "500X",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Fisker",
+                "model" => "Karma",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Fisker",
+                "model" => "Nina",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Fisker",
+                "model" => "Ocean",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "'34",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Bronco",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Bronco Sport",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Edge",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Escape",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Expedition",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Expedition MAX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Explorer",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "F-150",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "F-250",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "F-350",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "F-450",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "F-550",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "F-600",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "F-650",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "F-750",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Maverick",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Mustang",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Mustang GTD",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Mustang Mach-E",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Ranger",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Transit",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ford",
+                "model" => "Transit Connect",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Acadia",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Canyon",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Cruise Origin AV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Hummer EV Pickup",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Hummer EV SUV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Savana",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Sierra",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Sierra EV",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Sierra HD",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Sierra Limited",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Terrain",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Yukon",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "GMC",
+                "model" => "Yukon XL",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Honda",
+                "model" => "Accord",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Honda",
+                "model" => "CR-V",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Honda",
+                "model" => "Civic",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Honda",
+                "model" => "Civic Si",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Honda",
+                "model" => "Civic Type R",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Honda",
+                "model" => "HR-V",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Honda",
+                "model" => "Odyssey",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Honda",
+                "model" => "Passport",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Honda",
+                "model" => "Pilot",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Honda",
+                "model" => "Prologue",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Honda",
+                "model" => "Ridgeline",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Accent",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Elantra",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Elantra N",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "IONIQ 5 N",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Ioniq 5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Ioniq 6",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Kona",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Kona Electric",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Kona N",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Nexo",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Palisade",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Santa Cruz",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Santa Fe",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Santa Fe XL",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Sonata",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Tucson",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Venue",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Hyundai",
+                "model" => "Xcient",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Infiniti",
+                "model" => "Q50",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Infiniti",
+                "model" => "QX50",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Infiniti",
+                "model" => "QX55",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Infiniti",
+                "model" => "QX60",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Infiniti",
+                "model" => "QX80",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Isuzu",
+                "model" => "NPR/NPR-HD",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Isuzu",
+                "model" => "NQR",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Isuzu",
+                "model" => "NRR",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jaguar",
+                "model" => "E-PACE",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jaguar",
+                "model" => "F-PACE",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jaguar",
+                "model" => "F-TYPE",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jaguar",
+                "model" => "I-PACE",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jaguar",
+                "model" => "XF",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jeep",
+                "model" => "Compass",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jeep",
+                "model" => "Gladiator",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jeep",
+                "model" => "Grand Cherokee",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jeep",
+                "model" => "Grand Cherokee L",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jeep",
+                "model" => "Grand Wagoneer",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jeep",
+                "model" => "Grand Wagoneer L",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jeep",
+                "model" => "Renegade",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jeep",
+                "model" => "Wagoneer",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jeep",
+                "model" => "Wagoneer L",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jeep",
+                "model" => "Wagoneer S",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Jeep",
+                "model" => "Wrangler",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Karma",
+                "model" => "GS-6",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Karma",
+                "model" => "Gyesera",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Karma",
+                "model" => "Kaveya",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Karma",
+                "model" => "Revero",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "Carnival",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "EV6",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "EV9",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "Forte",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "K4",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "K5",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "Niro",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "Seltos",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "Sorento",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "Soul",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "Soul EV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "Sportage",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Kia",
+                "model" => "Telluride",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lamborghini",
+                "model" => "Huracan",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lamborghini",
+                "model" => "Revuelto",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lamborghini",
+                "model" => "URUS",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Land Rover",
+                "model" => "Defender",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Land Rover",
+                "model" => "Discovery",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Land Rover",
+                "model" => "Discovery Sport",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Land Rover",
+                "model" => "Range Rover",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Land Rover",
+                "model" => "Range Rover Evoque",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Land Rover",
+                "model" => "Range Rover Sport",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Land Rover",
+                "model" => "Range Rover Velar",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "ES",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "GS",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "GX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "IS",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "LC",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "LS",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "LX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "NX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "RC",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "RX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "RZ",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "TX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lexus",
+                "model" => "UX",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lincoln",
+                "model" => "Aviator",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lincoln",
+                "model" => "Continental",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lincoln",
+                "model" => "Corsair",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lincoln",
+                "model" => "Navigator",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lincoln",
+                "model" => "Navigator L",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lotus",
+                "model" => "ELETRE",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lotus",
+                "model" => "Emira",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lucid",
+                "model" => "Air",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Lucid",
+                "model" => "Gravity",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Maserati",
+                "model" => "Ghibli",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Maserati",
+                "model" => "Grancabrio",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Maserati",
+                "model" => "Granturismo",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Maserati",
+                "model" => "Grecale",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Maserati",
+                "model" => "Levante",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Maserati",
+                "model" => "MC20",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Maserati",
+                "model" => "Quattroporte",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Maybach",
+                "model" => "57",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Maybach",
+                "model" => "62",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mazda",
+                "model" => "CX-30",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mazda",
+                "model" => "CX-5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mazda",
+                "model" => "CX-50",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mazda",
+                "model" => "CX-70",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mazda",
+                "model" => "CX-9",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mazda",
+                "model" => "CX-90",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mazda",
+                "model" => "MX-30",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mazda",
+                "model" => "MX-5",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mazda",
+                "model" => "Mazda3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "McLaren",
+                "model" => "750S",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "McLaren",
+                "model" => "ARTURA",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "McLaren",
+                "model" => "GTS",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "AMG GT",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "C-Class",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "CLA-Class",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "CLE",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "E-Class",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "EQB-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "EQE-Class SUV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "EQS-Class SUV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "EQS-Class Sedan",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "G-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "GLA-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "GLB-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "GLC-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "GLE-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "GLS-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "L1013",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "L1113",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "L1116",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "L1117",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "L1316",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "L1317",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "L1319",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "L1418",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "L1419",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "LP1219",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "LP1419",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "LPS1525",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "S-Class",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "SL-Class",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "Sprinter",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mercedes-Benz",
+                "model" => "eSprinter",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mini",
+                "model" => "Cooper Convertible",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mini",
+                "model" => "Countryman",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mini",
+                "model" => "Hardtop",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mitsubishi",
+                "model" => "Diamante",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mitsubishi",
+                "model" => "Eclipse Cross",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mitsubishi",
+                "model" => "Mirage",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mitsubishi",
+                "model" => "Mirage G4",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mitsubishi",
+                "model" => "Outlander",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Mitsubishi",
+                "model" => "Outlander Sport",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "ARIYA",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "Altima",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "Armada",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "Frontier",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "GT-R",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "Kicks MPV",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "Kicks Play",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "Leaf",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "Murano",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "NISSAN Z",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "NV",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "NV200",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "Pathfinder",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "Rogue",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "Sentra",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "Titan",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Nissan",
+                "model" => "Versa",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "220",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "325",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "330",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "335",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "337",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "348",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "365",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "367",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "389",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "520",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "535",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "536",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "537",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "548",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "567",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "579",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peterbilt",
+                "model" => "589",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peugeot",
+                "model" => "405",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Peugeot",
+                "model" => "505",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Plymouth",
+                "model" => "Grand Voyager",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Plymouth",
+                "model" => "Neon",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Plymouth",
+                "model" => "Prowler",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Plymouth",
+                "model" => "Voyager",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Porsche",
+                "model" => "718 Boxster",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Porsche",
+                "model" => "718 Cayman",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Porsche",
+                "model" => "718 Spyder",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Porsche",
+                "model" => "911",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Porsche",
+                "model" => "Cayenne",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Porsche",
+                "model" => "Macan",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Porsche",
+                "model" => "Panamera",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Porsche",
+                "model" => "Taycan",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ram",
+                "model" => "1500",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ram",
+                "model" => "2500",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ram",
+                "model" => "3500",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ram",
+                "model" => "4500",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ram",
+                "model" => "5500",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ram",
+                "model" => "ProMaster 1500",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ram",
+                "model" => "ProMaster 2500",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ram",
+                "model" => "ProMaster 3500",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Ram",
+                "model" => "Promaster City",
+                "body_styles" => "[\"Van\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Rivian",
+                "model" => "EDV",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Rivian",
+                "model" => "R1S",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Rivian",
+                "model" => "R1T",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Rivian",
+                "model" => "RCV",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Rolls-Royce",
+                "model" => "Cullinan",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Rolls-Royce",
+                "model" => "Ghost",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Rolls-Royce",
+                "model" => "Phantom",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Rolls-Royce",
+                "model" => "Spectre",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Saab",
+                "model" => "9-3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Saab",
+                "model" => "9-5",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Shelby",
+                "model" => "Cobra",
+                "body_styles" => "[\"Convertible\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Shelby",
+                "model" => "GT",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Smart",
+                "model" => "EQ Fortwo",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Smart",
+                "model" => "Fortwo",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Spyker",
+                "model" => "C12",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Spyker",
+                "model" => "C8",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Spyker",
+                "model" => "D8/D12",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Subaru",
+                "model" => "Ascent",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Subaru",
+                "model" => "BRZ",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Subaru",
+                "model" => "Crosstrek",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Subaru",
+                "model" => "Forester",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Subaru",
+                "model" => "Impreza",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Subaru",
+                "model" => "Legacy",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Subaru",
+                "model" => "Outback",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Subaru",
+                "model" => "Solterra",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Subaru",
+                "model" => "WRX",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Suzuki",
+                "model" => "Equator",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Suzuki",
+                "model" => "Grand Vitara",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Suzuki",
+                "model" => "Kizashi",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Suzuki",
+                "model" => "SX4",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Suzuki",
+                "model" => "XL7",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Tesla",
+                "model" => "Cybertruck",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Tesla",
+                "model" => "Model 3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Tesla",
+                "model" => "Model S",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Tesla",
+                "model" => "Model X",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Tesla",
+                "model" => "Model Y",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Tesla",
+                "model" => "Semi",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "4-Runner",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Camry",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Corolla",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Corolla Cross",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Crown",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Crown Signia",
+                "body_styles" => "[\"Wagon\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "GR Corolla",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "GR86",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Grand Highlander",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Highlander",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Land Cruiser",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Mirai",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Paseo",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Prius",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Prius Prime",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "RAV4",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "RAV4 Prime",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Sequoia",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Sienna",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Supra",
+                "body_styles" => "[\"Coupe\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Tacoma",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Tundra",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Venza",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "Yaris",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Toyota",
+                "model" => "bZ4X",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "Cab Behind Engine",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "Cab Over Engine HT",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "Cab Over Engine LT",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "EC40",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "EX30",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "EX40",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "EX90",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "F12 w/F7 Cab",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "F6 w/F7 Cab",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "S60",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "S90",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "V60",
+                "body_styles" => "[\"Wagon\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "V60CC",
+                "body_styles" => "[\"Wagon\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "V90CC",
+                "body_styles" => "[\"Wagon\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "VS",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "VT",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "XC40",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "XC60",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Volvo",
+                "model" => "XC90",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2025,
+                "make" => "Yugo",
+                "model" => "102, GV",
+                "body_styles" => "[\"Hatchback\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Audi",
+                "model" => "A4",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Audi",
+                "model" => "Q5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "BMW",
+                "model" => "3 Series",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "BMW",
+                "model" => "X5",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Chevrolet",
+                "model" => "Equinox",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Chevrolet",
+                "model" => "Silverado 1500",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Ford",
+                "model" => "Bronco",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Ford",
+                "model" => "F-150",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Ford",
+                "model" => "Mustang",
+                "body_styles" => "[\"Coupe\", \"Convertible\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Honda",
+                "model" => "Civic",
+                "body_styles" => "[\"Sedan\", \"Hatchback\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Honda",
+                "model" => "CR-V",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Mercedes-Benz",
+                "model" => "C-Class",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Mercedes-Benz",
+                "model" => "GLE-Class",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Nissan",
+                "model" => "Altima",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Nissan",
+                "model" => "Rogue",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Porsche",
+                "model" => "911",
+                "body_styles" => "[\"Coupe\", \"Convertible\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Porsche",
+                "model" => "Macan",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Ram",
+                "model" => "1500",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Rivian",
+                "model" => "R1S",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Rivian",
+                "model" => "R2",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Subaru",
+                "model" => "Crosstrek",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Subaru",
+                "model" => "Outback",
+                "body_styles" => "[\"Wagon\", \"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Tesla",
+                "model" => "Model 3",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Tesla",
+                "model" => "Model Y",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Toyota",
+                "model" => "Camry",
+                "body_styles" => "[\"Sedan\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Toyota",
+                "model" => "RAV4",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Toyota",
+                "model" => "Tacoma",
+                "body_styles" => "[\"Truck\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Volkswagen",
+                "model" => "Atlas",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Volkswagen",
+                "model" => "Tiguan",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Volvo",
+                "model" => "EX90",
+                "body_styles" => "[\"SUV\"]"
+            ],
+            [
+                "year" => 2026,
+                "make" => "Volvo",
+                "model" => "XC60",
+                "body_styles" => "[\"SUV\"]"
             ]
         ];
 
         foreach ($carMakeModelYear as &$car) {
-            if ($car['make'] === 'HUMMER') {
-                $car['make'] = 'Hummer';
+            switch ($car['make']) {
+                case 'HUMMER':  $car['make'] = 'Hummer';  break;
+                case 'INFINITI': $car['make'] = 'Infiniti'; break;
+                case 'MAZDA':   $car['make'] = 'Mazda';   break;
+                case 'MINI':    $car['make'] = 'Mini';    break;
+                case 'FIAT':    $car['make'] = 'Fiat';    break;
             }
 
-            if ($car['make'] === 'INFINITI') {
-                $car['make'] = 'Infiniti';
-            }
-
-            if ($car['make'] === 'MAZDA') {
-                $car['make'] = 'Mazda';
-            }
-
-            if ($car['make'] === 'MINI') {
-                $car['make'] = 'Mini';
-            }
-
-            if ($car['make'] === 'FIAT') {
-                $car['make'] = 'Fiat';
-            }
-
-            if ($car['model'] === 'MAZDA2') {
-                $car['model'] = 'Mazda2';
-            }
-
-            if ($car['model'] === 'MAZDA3') {
-                $car['model'] = 'Mazda3';
-            }
-
-            if ($car['model'] === 'MAZDA5') {
-                $car['model'] = 'Mazda5';
-            }
-
-            if ($car['model'] === 'MAZDA6') {
-                $car['model'] = 'Mazda6';
+            switch ($car['model']) {
+                case 'MAZDA2': $car['model'] = 'Mazda2'; break;
+                case 'MAZDA3': $car['model'] = 'Mazda3'; break;
+                case 'MAZDA5': $car['model'] = 'Mazda5'; break;
+                case 'MAZDA6': $car['model'] = 'Mazda6'; break;
             }
 
             unset($car["body_styles"]);
