@@ -33,16 +33,16 @@
             <h3>{{ __('FEATURED LINKS') }}</h3>
             <ul class="list-links">
                 <li>
-                    <a href="listing-create">{{ __('Create A New Car Listing') }}</a>
+                    <a href="/listing-create">{{ __('Create A New Car Listing') }}</a>
                 </li>
                 <li>
-                    <a href="user-bids">{{ __('Go To Your Bidded Listings') }}</a>
+                    <a href="/user-bids">{{ __('Go To Your Bidded Listings') }}</a>
                 </li>
                 <li>
-                    <a href="user-listings">{{ __('Go To Your Posted Listings') }}</a>
+                    <a href="/user-listings">{{ __('Go To Your Posted Listings') }}</a>
                 </li>
                 <li>
-                    <a href="user-messages">{{ __('Go To Your Messages') }}</a>
+                    <a href="/user-messages">{{ __('Go To Your Messages') }}</a>
                 </li>
             </ul>
         </div>

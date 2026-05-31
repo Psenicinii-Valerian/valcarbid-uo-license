@@ -412,6 +412,8 @@
   align-items: center;
   justify-content: center;
   margin: 4px 0;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 @media screen and (min-width: 375px) {
   .listing .timer {
@@ -442,6 +444,8 @@
 .listing .prices-timer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
 .no-listings {
@@ -1872,4 +1876,4 @@ ul.pagination li.disabled span {
     letter-spacing: 2px;
     width: 350px;
   }
-}
+}/*# sourceMappingURL=styles.css.map */

@@ -234,6 +234,8 @@
         align-items: center;
         justify-content: center;
         margin: 4px 0;
+        white-space: nowrap;
+        flex-shrink: 0;
 
         @include variables.for-esm {
             font-size: 14px;
@@ -261,6 +263,10 @@
     .prices-timer {
         display: flex;
         justify-content: space-between;
+        // When the labels are longer (e.g. RO "Licitație:"/"Cumpărare:") and the
+        // timer no longer fits beside them, let it wrap below instead of overflowing.
+        flex-wrap: wrap;
+        gap: 6px;
     }
 }
 
