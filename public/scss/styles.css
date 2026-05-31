@@ -293,7 +293,8 @@
   max-width: 100%; /* Ensure images don't overflow */
   height: auto;
   aspect-ratio: 1/0.75; /* Maintain a 1:0.75 aspect ratio for images */
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .listing .car-info {
   display: flex;
@@ -655,6 +656,9 @@ ul.pagination li.disabled span {
   padding: 5px;
   flex: 1;
   margin-right: 10px;
+}
+.search input::-moz-placeholder {
+  color: #999;
 }
 .search input::placeholder {
   color: #999;
@@ -1692,6 +1696,7 @@ ul.pagination li.disabled span {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 7px;
   background: linear-gradient(30deg, #2980B9, #6DD5FA);
   transition-duration: 0.3s;
   padding: 20px 10px;
@@ -1759,6 +1764,7 @@ ul.pagination li.disabled span {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 7px;
   background: linear-gradient(30deg, #2980B9, #6DD5FA);
   transition-duration: 0.3s;
   padding: 20px 10px;
@@ -1817,11 +1823,12 @@ ul.pagination li.disabled span {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 7px;
   background: linear-gradient(30deg, #b92929, #fa6d6d);
   transition-duration: 0.3s;
   padding: 20px 10px;
   width: 300px;
-  height: 30px;
+  height: 60px;
   border-radius: 25px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   position: fixed;
