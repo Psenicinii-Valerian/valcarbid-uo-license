@@ -53,10 +53,10 @@
     <section class="copyright">
         <div class="social-and-copyrights">
             <div class="socials">
-                <a class="twitter-bg social-item" href="https:/twitter.com"><i class="fa-brands fa-twitter"></i></a>
-                <a class="facebook-bg social-item" href="https:/facebook.com"><i class="fa-brands fa-facebook"></i></a>
-                <a class="pinterest-bg social-item" href="https:/pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
-                <a class="linkedin-bg social-item" href="https:/linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="twitter-bg social-item" href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a class="facebook-bg social-item" href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a class="pinterest-bg social-item" href="https://pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
+                <a class="linkedin-bg social-item" href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
             </div>
             <div class="rights-reserved">
                 <p>@V A L C A R B I D</p>
