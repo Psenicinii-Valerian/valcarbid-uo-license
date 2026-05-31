@@ -100,6 +100,22 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Available Locales
+    |--------------------------------------------------------------------------
+    |
+    | The languages the user can switch the interface to. The key is the locale
+    | code (matching a lang/{code}.json file and lang/{code}/ folder); the value
+    | is the label shown in the language switcher.
+    |
+    */
+
+    'available_locales' => [
+        'en' => 'English',
+        'ro' => 'Română',
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
     | Faker Locale
     |--------------------------------------------------------------------------
     |

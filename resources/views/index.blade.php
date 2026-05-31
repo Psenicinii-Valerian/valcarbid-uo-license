@@ -12,7 +12,7 @@
     <script src='{{ asset('js/warning-message-trigger.js') }}' defer></script>
 @endsection
 
-@section('doc_title', 'Home')
+@section('doc_title', __('Home'))
 @section('doc_body')
     @if (session('success_msg'))
         <p id="success" class="index-success-msg">
@@ -26,7 +26,7 @@
         </p>
     @endif
     <div class="refine-trigger">
-        <p class="refine-options">Refine Options <i class="fa fa-chevron-down"></i></p>
+        <p class="refine-options">{{ __('Refine Options') }} <i class="fa fa-chevron-down"></i></p>
     </div>
     <div class="notification-bell">
         <a href="user-messages">
@@ -44,22 +44,22 @@
                 <div class="group-1">
                     <!-- Type Filter -->
                     <div class="filter-item type-filter">
-                        <label for="type-filter">Type:</label>
+                        <label for="type-filter">{{ __('Type:') }}</label>
                         <select name="type-filter" id="type-filter">
                             @foreach ($filters['typeFilters'] as $value => $optionLabel)
                                 <option value="{{ $value }}" @if (request('type-filter') == $value) selected @endif>
-                                    {{ $optionLabel }}
+                                    {{ __($optionLabel) }}
                                 </option>
                             @endforeach
                         </select>
                     </div>
                     <!-- Year Filter -->
                     <div class="filter-item year-filter">
-                        <label for="year-filter">Year:</label>
+                        <label for="year-filter">{{ __('Year:') }}</label>
                         <select name="year-filter" id="year-filter">
                             @foreach ($filters['yearFilters'] as $value => $optionLabel)
                                 <option value="{{ $value }}" @if (request('year-filter') == $value) selected @endif>
-                                    {{ $optionLabel }}
+                                    {{ __($optionLabel) }}
                                 </option>
                             @endforeach
                         </select>
@@ -69,22 +69,22 @@
                 <div class="group-2">
                     <!-- Crashes Filter -->
                     <div class="filter-item crashes-filter">
-                        <label for="crashes-filter">Crashes:</label>
+                        <label for="crashes-filter">{{ __('Crashes:') }}</label>
                         <select name="crashes-filter" id="crashes-filter">
                             @foreach ($filters['crashesFilters'] as $value => $optionLabel)
                                 <option value="{{ $value }}" @if (request('crashes-filter') == $value) selected @endif>
-                                    {{ $optionLabel }}
+                                    {{ __($optionLabel) }}
                                 </option>
                             @endforeach
                         </select>
                     </div>
                     <!-- Transmission Type Filter -->
                     <div class="filter-item transmission-type-filter">
-                        <label for="transmission-type-filter">Transmission Type:</label>
+                        <label for="transmission-type-filter">{{ __('Transmission Type:') }}</label>
                         <select name="transmission-type-filter" id="transmission-type-filter">
                             @foreach ($filters['transmissionTypeFilters'] as $value => $optionLabel)
                                 <option value="{{ $value }}" @if (request('transmission-type-filter') == $value) selected @endif>
-                                    {{ $optionLabel }}
+                                    {{ __($optionLabel) }}
                                 </option>
                             @endforeach
                         </select>
@@ -94,22 +94,22 @@
                 <div class="group-3">
                     <!-- Body Filter -->
                     <div class="filter-item body-filter">
-                        <label for="body-filter">Body:</label>
+                        <label for="body-filter">{{ __('Body:') }}</label>
                         <select name="body-filter" id="body-filter">
                             @foreach ($filters['bodyFilters'] as $value => $optionLabel)
                                 <option value="{{ $value }}" @if (request('body-filter') == $value) selected @endif>
-                                    {{ $optionLabel }}
+                                    {{ __($optionLabel) }}
                                 </option>
                             @endforeach
                         </select>
                     </div>
                     <!-- Fuel Type Filter -->
                     <div class="filter-item fuel-type-filter">
-                        <label for="fuel-type-filter">Fuel Type:</label>
+                        <label for="fuel-type-filter">{{ __('Fuel Type:') }}</label>
                         <select name="fuel-type-filter" id="fuel-type-filter">
                             @foreach ($filters['fuelTypeFilters'] as $value => $optionLabel)
                                 <option value="{{ $value }}" @if (request('fuel-type-filter') == $value) selected @endif>
-                                    {{ $optionLabel }}
+                                    {{ __($optionLabel) }}
                                 </option>
                             @endforeach
                         </select>
@@ -119,22 +119,22 @@
                 <div class="group-4">
                     <!-- Displacement Filter -->
                     <div class="filter-item displacement-filter">
-                        <label for="displacement-filter">Displacement:</label>
+                        <label for="displacement-filter">{{ __('Displacement:') }}</label>
                         <select name="displacement-filter" id="displacement-filter">
                             @foreach ($filters['displacementFilters'] as $value => $optionLabel)
                                 <option value="{{ $value }}" @if (request('displacement-filter') == $value) selected @endif>
-                                    {{ $optionLabel }}
+                                    {{ __($optionLabel) }}
                                 </option>
                             @endforeach
                         </select>
                     </div>
                     <!-- Battery Capacity Filter -->
                     <div class="filter-item battery-capacity-filter">
-                        <label for="battery-capacity-filter">Battery Capacity:</label>
+                        <label for="battery-capacity-filter">{{ __('Battery Capacity:') }}</label>
                         <select name="battery-capacity-filter" id="battery-capacity-filter">
                             @foreach ($filters['batteryCapacityFilters'] as $value => $optionLabel)
                                 <option value="{{ $value }}" @if (request('battery-capacity-filter') == $value) selected @endif>
-                                    {{ $optionLabel }}
+                                    {{ __($optionLabel) }}
                                 </option>
                             @endforeach
                         </select>
@@ -144,15 +144,15 @@
 
             <div class="search-sort">
                 <!-- Reset All Refines For >= XL Screens -->
-                <a class="reset-xl reset" href="/">Reset</a>
+                <a class="reset-xl reset" href="/">{{ __('Reset') }}</a>
 
                 <!-- Sort -->
                 <div class="sort">
-                    <label for="listing-sort">Sort by:</label>
+                    <label for="listing-sort">{{ __('Sort by:') }}</label>
                     <select name="listing-sort" id="listing-sort">
                         @foreach ($listingSortOptions as $value => $optionLabel)
                             <option value="{{ $value }}" @if (request('listing-sort') == $value) selected @endif>
-                                {{ $optionLabel }}
+                                {{ __($optionLabel) }}
                             </option>
                         @endforeach
                     </select>
@@ -161,24 +161,24 @@
                 <div class="search">
                     <input type="text" id="search_input"
                         @if (!empty(request('search'))) value="{{ request('search') }}" @endif name="search"
-                        placeholder="Search...">
-                    <button><img src="{{ asset('site-images/loupe.png') }}" alt="Search Image"></button>
+                        placeholder="{{ __('Search...') }}">
+                    <button><img src="{{ asset('site-images/loupe.png') }}" alt="{{ __('Search Image') }}"></button>
                 </div>
 
                 <!-- Reset And Refine Buttons For ESM And SM -->
                 <div class="reset-refine-esm">
-                    <a class="reset-esm reset" href="/">Reset</a>
-                    <button class="refine-esm refine-button">Refine</button>
+                    <a class="reset-esm reset" href="/">{{ __('Reset') }}</a>
+                    <button class="refine-esm refine-button">{{ __('Refine') }}</button>
                 </div>
 
                 <!-- Reset For MD And XL Screens -->
-                <a class="reset-md reset" href="/">Reset</a>
+                <a class="reset-md reset" href="/">{{ __('Reset') }}</a>
 
                 <!-- Refine For MD And XL Screens -->
-                <button class="refine-md refine-button">Refine</button>
+                <button class="refine-md refine-button">{{ __('Refine') }}</button>
 
                 <!-- Refine FOR >= XL Screens -->
-                <button class="refine-xl refine-button">Refine</button>
+                <button class="refine-xl refine-button">{{ __('Refine') }}</button>
             </div>
         </div>
     </form>
@@ -187,15 +187,15 @@
         <div class="listings">
             @foreach ($carListings as $carListing)
                 <a href="{{ '/listing/' . $carListing['car']->id }}" class="listing">
-                    <img src="{{ asset($carListing['imagePath']) }}" alt="Main Car Image">
+                    <img src="{{ asset($carListing['imagePath']) }}" alt="{{ __('Main Car Image') }}">
                     <div class="car-info">
                         <p class="car-make-model">
                             {{ strtoupper($carListing['car']->make . ' ' . $carListing['car']->model) }}</p>
                         <p class="car-year">{{ $carListing['car']->year }}</p>
                         <div class="prices-timer">
                             <div class="prices">
-                                <p>Bid: ${{ $carListing['listing']->bid_price }}</p>
-                                <p class="car-buy">Buy: ${{ $carListing['listing']->buy_price }}</p>
+                                <p>{{ __('Bid:') }} ${{ $carListing['listing']->bid_price }}</p>
+                                <p class="car-buy">{{ __('Buy:') }} ${{ $carListing['listing']->buy_price }}</p>
                             </div>
                             <p id="expires-in" class="timer">
                                 {{ sprintf('%02d', $carListing['remainingHours']) }} :
@@ -211,7 +211,7 @@
     @else
         <div class="no-listings">
             <!-- HTML for when there are no car listings -->
-            <p>No car listings available with the specified parameters.</p>
+            <p>{{ __('No car listings available with the specified parameters.') }}</p>
         </div>
     @endif
 @endsection

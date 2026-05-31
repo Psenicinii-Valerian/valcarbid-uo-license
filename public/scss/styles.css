@@ -293,8 +293,7 @@
   max-width: 100%; /* Ensure images don't overflow */
   height: auto;
   aspect-ratio: 1/0.75; /* Maintain a 1:0.75 aspect ratio for images */
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .listing .car-info {
   display: flex;
@@ -656,9 +655,6 @@ ul.pagination li.disabled span {
   padding: 5px;
   flex: 1;
   margin-right: 10px;
-}
-.search input::-moz-placeholder {
-  color: #999;
 }
 .search input::placeholder {
   color: #999;
@@ -1509,6 +1505,11 @@ ul.pagination li.disabled span {
   box-sizing: border-box;
   padding-left: 20px;
 }
+:lang(ro) .bid-buy-btns .bid-btns input,
+:lang(ro) .listing-owner .bid-btns input {
+  width: 175px;
+  padding-left: 14px;
+}
 .bid-buy-btns .bid-btn,
 .bid-buy-btns .buy-btn,
 .listing-owner .bid-btn,
@@ -1516,8 +1517,10 @@ ul.pagination li.disabled span {
   letter-spacing: 2px;
   background-color: black;
   color: white;
-  width: 70px;
+  min-width: 70px;
+  padding: 0 14px;
   height: 41.6px;
+  white-space: nowrap;
 }
 
 .listing-owner {
@@ -1862,4 +1865,4 @@ ul.pagination li.disabled span {
     letter-spacing: 2px;
     width: 350px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}

@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
     refineOptions.addEventListener("click", function () {
         if (isHidden) {
             filterSort.style.display = "block";
-            refineOptions.innerHTML = 'Refine Options <i class="fa fa-chevron-up"></i>';
+            refineOptions.innerHTML = window.__("Refine Options") + ' <i class="fa fa-chevron-up"></i>';
         } else {
             filterSort.style.display = "none";
-            refineOptions.innerHTML = 'Refine Options <i class="fa fa-chevron-down"></i>';
+            refineOptions.innerHTML = window.__("Refine Options") + ' <i class="fa fa-chevron-down"></i>';
         }
 
         isHidden = !isHidden;

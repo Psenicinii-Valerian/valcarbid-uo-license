@@ -16,11 +16,11 @@ const mainImageLabel = document.getElementById("main-image-label");
 function updateLabelText() {
     const selectedFilesCount = fileInput.files.length;
     if (selectedFilesCount > 0) {
-        labelElement.textContent = `Successfully added ${selectedFilesCount} ${
-            selectedFilesCount === 1 ? "image!" : "images!"
+        labelElement.textContent = `${window.__("Successfully added")} ${selectedFilesCount} ${
+            selectedFilesCount === 1 ? window.__("image!") : window.__("images!")
         }`;
     } else {
-        labelElement.textContent = "Choose your car images";
+        labelElement.textContent = window.__("Choose your car images");
     }
 }
 
@@ -28,9 +28,9 @@ function updateLabelText() {
 function updateMainImageLabelText() {
     const mainImageSelected = mainImageInput.files.length > 0;
     if (mainImageSelected) {
-        mainImageLabel.textContent = "Main image selected!";
+        mainImageLabel.textContent = window.__("Main image selected!");
     } else {
-        mainImageLabel.textContent = "Choose your car's main image";
+        mainImageLabel.textContent = window.__("Choose your car's main image");
     }
 }
 

@@ -37,9 +37,9 @@ class ListingBidOrBuyRequest extends FormRequest
     {
         return [
             'new-bid' => [
-                'integer' => 'The new bid field must be integer.',
-                'gt' => 'The new bid price must be greater than the old bid.',
-                'lt' => "The new bid price must be less than the car's buy now price",
+                'integer' => __('The new bid field must be integer.'),
+                'gt' => __('The new bid price must be greater than the old bid.'),
+                'lt' => __("The new bid price must be less than the car's buy now price"),
             ],
         ];
     }
