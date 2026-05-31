@@ -22,7 +22,9 @@
         {{-- Profile Navbar End --}}
     </header>
 
-    @yield('doc_body')
+    <main class="page-main">
+        @yield('doc_body')
+    </main>
 
     <footer>
         <x-footer />
