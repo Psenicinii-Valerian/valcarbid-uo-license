@@ -68,7 +68,7 @@
                             {{-- 1 --}}
                             <div class="car-detailed-info">
                                 <h3>{{ __('Mileage') }}</h3>
-                                <p>{{ $car->mileage }} mi</p>
+                                <p>@thousands($car->mileage) mi</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
@@ -168,12 +168,12 @@
                                         <i class="fa-solid fa-circle-info"></i>
                                     </a>
                                 </div>
-                                <p>${{ $listing->bid_price }}</p>
+                                <p>$@thousands($listing->bid_price)</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
                                 <h3>{{ __('Buy Price') }}</h3>
-                                <p>${{ $listing->buy_price }}</p>
+                                <p>$@thousands($listing->buy_price)</p>
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
@@ -234,7 +234,7 @@
                             {{-- 2 --}}
                             <div class="car-detailed-info">
                                 <h3>{{ __('Mileage') }}</h3>
-                                <p>{{ $car->mileage }} mi</p>
+                                <p>@thousands($car->mileage) mi</p>
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
@@ -336,12 +336,12 @@
                                         <i class="fa-solid fa-circle-info"></i>
                                     </a>
                                 </div>
-                                <p>${{ $listing->bid_price }}</p>
+                                <p>$@thousands($listing->bid_price)</p>
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
                                 <h3>{{ __('Buy Price') }}</h3>
-                                <p>${{ $listing->buy_price }}</p>
+                                <p>$@thousands($listing->buy_price)</p>
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
@@ -395,7 +395,7 @@
                             {{-- 2 --}}
                             <div class="car-detailed-info">
                                 <h3>{{ __('Mileage') }}</h3>
-                                <p>{{ $car->mileage }} mi</p>
+                                <p>@thousands($car->mileage) mi</p>
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
@@ -501,14 +501,14 @@
                                         <i class="fa-solid fa-circle-info"></i>
                                     </a>
                                 </div>
-                                <p>${{ $listing->bid_price }}</p>
+                                <p>$@thousands($listing->bid_price)</p>
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
                                 <h3>{{ __('Buy Price') }}</h3>
-                                <p>${{ $listing->buy_price }}</p>
+                                <p>$@thousands($listing->buy_price)</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
@@ -537,7 +537,7 @@
                         <div class="bid-buy-btns">
                             {{--  Bid --}}
                             <div class="bid-btns">
-                                <input type="number" name="new-bid" min="{{ $listing->bid_price + 1 }}"
+                                <input type="text" inputmode="numeric" name="new-bid" data-min="{{ $listing->bid_price + 1 }}"
                                     placeholder="{{ __('Enter Bid') }}" id="bid-input">
                                 <button type="submit" class="bid-btn" id="bid-button" hidden>{{ __('BID') }}</button>
                                 @error('new-bid')

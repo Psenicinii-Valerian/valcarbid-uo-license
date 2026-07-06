@@ -20,7 +20,7 @@
                                 <p> {{ __('congratulations! You have won the auction for the car') }} </p>
                                 <p class="winnerCarName deal-detail"> {{ $message['carMakeModelYear'] }} </p>
                                 <p> {{ __('with a bidding of') }} </p>
-                                <p class="winnerCarPrice deal-detail"> ${{ $message['carPrice'] }}.</p>
+                                <p class="winnerCarPrice deal-detail"> $@thousands($message['carPrice']).</p>
                                 <p>
                                     {{ __('You can now contact the seller at the phone number:') }}
                                     <a href="tel:"
@@ -37,7 +37,7 @@
                                 <p> {{ __('congratulations! You have successfully purchased the car') }} </p>
                                 <p class="winnerCarName deal-detail"> {{ $message['carMakeModelYear'] }} </p>
                                 <p> {{ __('for a total price of') }} </p>
-                                <p class="winnerCarPrice deal-detail"> ${{ $message['carPrice'] }}.</p>
+                                <p class="winnerCarPrice deal-detail"> $@thousands($message['carPrice']).</p>
                                 <p>
                                     {{ __('You can now contact the seller at the phone number:') }}
                                     <a href="tel:"
@@ -67,7 +67,7 @@
                                 <p> {{ __('congratulations! Your auction for the car') }} </p>
                                 <p class="sellerCarName deal-detail"> {{ $message['carMakeModelYear'] }} </p>
                                 <p> {{ __('has been won at the bidding with a price of') }} </p>
-                                <p class="sellerCarPrice deal-detail"> ${{ $message['carPrice'] }}.</p>
+                                <p class="sellerCarPrice deal-detail"> $@thousands($message['carPrice']).</p>
                                 <p>
                                     {{ __('You can now contact the buyer at the phone number:') }}
                                     <a href="tel:"
@@ -84,7 +84,7 @@
                                 <p> {{ __('congratulations! Your auction for the car') }} </p>
                                 <p class="sellerCarName deal-detail"> {{ $message['carMakeModelYear'] }} </p>
                                 <p> {{ __('has been purchased with a price of') }} </p>
-                                <p class="sellerCarPrice deal-detail"> ${{ $message['carPrice'] }}.</p>
+                                <p class="sellerCarPrice deal-detail"> $@thousands($message['carPrice']).</p>
                                 <p>
                                     {{ __('You can now contact the buyer at the phone number:') }}
                                     <a href="tel:"

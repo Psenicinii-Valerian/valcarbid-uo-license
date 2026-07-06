@@ -108,7 +108,7 @@ class ListingCreateRequest extends FormRequest
                 'required' => __('The mileage field is required.'),
                 'numeric' => __('The mileage must be a number.'),
                 'min' => __('The mileage must be at least :min.'),
-                'max' => __('The mileage may not be greater than :max.'),
+                'max' => __('The mileage may not be greater than :max.', ['max' => number_format(150000, 0, ',', '.')]),
             ],
             'vin' => [
                 'required' => __('The VIN field is required.'),
@@ -122,7 +122,7 @@ class ListingCreateRequest extends FormRequest
                 'required' => __('The engine power field is required.'),
                 'numeric' => __('The engine power must be a number.'),
                 'min' => __('The engine power must be at least :min.'),
-                'max' => __('The engine power may not be greater than :max.'),
+                'max' => __('The engine power may not be greater than :max.', ['max' => number_format(2000, 0, ',', '.')]),
             ],
             'displacement' => [
                 'numeric' => __('The displacement must be a number.'),
@@ -186,14 +186,14 @@ class ListingCreateRequest extends FormRequest
                 'required' => __('The starting bid price field is required.'),
                 'integer' => __('The starting bid price must be an integer.'),
                 'min' => __('The starting bid price must be at least :min$.'),
-                'max' => __('The starting bid price may not be greater than :max$.'),
+                'max' => __('The starting bid price may not be greater than :max$.', ['max' => number_format(1000000, 0, ',', '.')]),
             ],
             'buy-price' => [
                 'required' => __('The starting buy price field is required.'),
                 'integer' => __('The starting buy price must be an integer.'),
                 'min' => __('The starting buy price must be at least :min$.'),
                 'gte' => __('The Buy Price must be greater than or equal to the Bid Price.'),
-                'max' => __('The starting buy price may not be greater than :max$.'),
+                'max' => __('The starting buy price may not be greater than :max$.', ['max' => number_format(5000000, 0, ',', '.')]),
             ],
             'days-to-sell' => [
                 'required' => __('The days to sell field is required.'),

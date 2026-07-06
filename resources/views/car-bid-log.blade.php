@@ -14,7 +14,7 @@
                     <p> {{ $iterator++ }}. </p>
                     <p class="car-bidder"> {{ $carBid['bidder']->name }} {{ $carBid['bidder']->surname }} </p>
                     <p> {{ __('bidded') }} </p>
-                    <p class="bid-price"> ${{ $carBid['bid']->bid_price }} </p>
+                    <p class="bid-price"> $@thousands($carBid['bid']->bid_price) </p>
                     <p> {{ __('on') }} </p>
                     <p class="car-model"> {{ $carBid['car']->make }} {{ $carBid['car']->model }} {{ $carBid['car']->year }}</p>
                     <p>{{ __('at') }} {{ $carBid['bid']->created_at }}</p>

@@ -20,8 +20,8 @@
                     <p class="car-year">{{ $carListing['car']->year }}</p>
                     <div class="prices-timer">
                         <div class="prices">
-                            <p>{{ __('Bid:') }} ${{ $carListing['listing']->bid_price }}</p>
-                            <p class="car-buy">{{ __('Buy:') }} ${{ $carListing['listing']->buy_price }}</p>
+                            <p>{{ __('Bid:') }} $@thousands($carListing['listing']->bid_price)</p>
+                            <p class="car-buy">{{ __('Buy:') }} $@thousands($carListing['listing']->buy_price)</p>
                         </div>
                         <p id="expires-in" class="timer">
                             {{ sprintf('%02d', $carListing['remainingHours']) }} : 
