@@ -187,6 +187,9 @@
         <div class="listings">
             @foreach ($carListings as $carListing)
                 <a href="{{ '/listing/' . $carListing['car']->id }}" class="listing">
+                    @if (auth()->check() && auth()->id() == $carListing['car']->seller_id)
+                        <span class="listing-owner-badge">{{ __('Your listing') }}</span>
+                    @endif
                     <img src="{{ asset($carListing['imagePath']) }}" alt="{{ __('Main Car Image') }}">
                     <div class="car-info">
                         <p class="car-make-model">
