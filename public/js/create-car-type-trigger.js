@@ -16,31 +16,31 @@ document.addEventListener("DOMContentLoaded", function () {
     const oldTransmissionType = window.oldInput.transmissionType;
 
     const evOptions = {
-        cylinders: [{ value: "null", label: "Not Any" }],
-        fuelType: [{ value: "electricity", label: "Electricity" }],
+        cylinders: [{ value: "null", label: window.__("Not Any") }],
+        fuelType: [{ value: "electricity", label: window.__("Electricity") }],
         transmissionType: [
-            { value: "automatic transmission", label: "Automatic" },
+            { value: "automatic transmission", label: window.__("Automatic") },
         ],
     };
 
     const iceOptions = {
         cylinders: [
-            { value: "3", label: "3 Cylinders" },
-            { value: "4", label: "4 Cylinders" },
-            { value: "6", label: "6 Cylinders" },
-            { value: "8", label: "8 Cylinders" },
-            { value: "12", label: "12 Cylinders" },
+            { value: "3", label: window.__("3 Cylinders") },
+            { value: "4", label: window.__("4 Cylinders") },
+            { value: "6", label: window.__("6 Cylinders") },
+            { value: "8", label: window.__("8 Cylinders") },
+            { value: "12", label: window.__("12 Cylinders") },
         ],
         fuelType: [
-            { value: "gasoline", label: "Gasoline" },
-            { value: "diesel", label: "Diesel" },
-            { value: "ethanol", label: "Ethanol" }, 
-            { value: "hybrid", label: "Hybrid" },
+            { value: "gasoline", label: window.__("Gasoline") },
+            { value: "diesel", label: window.__("Diesel") },
+            { value: "ethanol", label: window.__("Ethanol") },
+            { value: "hybrid", label: window.__("Hybrid") },
         ],
         transmissionType: [
-            { value: "manual transmission", label: "Manual" },
-            { value: "automatic transmission", label: "Automatic" },
-            { value: "cvt", label: "CVT" },
+            { value: "manual transmission", label: window.__("Manual") },
+            { value: "automatic transmission", label: window.__("Automatic") },
+            { value: "cvt", label: window.__("CVT") },
         ],
     };
 

@@ -8,11 +8,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 7px;
     background: linear-gradient(30deg, #b92929, #fa6d6d);
     transition-duration: 0.3s;
     padding: 20px 10px;
     width: 300px;
-    height: 30px;
+    height: 60px;
     border-radius: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position: fixed;

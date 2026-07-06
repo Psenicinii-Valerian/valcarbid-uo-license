@@ -7,9 +7,9 @@
     <script src='{{ asset('js/create-car-type-trigger.js') }}' defer></script>
     <script src='{{ asset('js/create-car-make-model-year-data.js') }}' defer></script>
 @endsection
-@section('doc_title', 'Create Car')
+@section('doc_title', __('Create Car'))
 @section('doc_body')
-    <h1 class="page-title">Create a New Listing</h1>
+    <h1 class="page-title">{{ __('Create a New Listing') }}</h1>
     <form action="{{ route('listing.create') }}" enctype="multipart/form-data" method="POST" id="car-create-form"
         class="create-form">
         @csrf
@@ -17,9 +17,9 @@
             <div class="create-form-part1">
                 <!-- Make -->
                 <div class="make label-select-group">
-                    <label for="make">Make:</label>
+                    <label for="make">{{ __('Make:') }}</label>
                     <select name="make" id="make" class="form-control">
-                        <option value="">Select Make</option>
+                        <option value="">{{ __('Select Make') }}</option>
                         @foreach ($makes as $makeOption)
                             <option value="{{ $makeOption }}" {{ old('make') == $makeOption ? 'selected' : '' }}>
                                 {{ $makeOption }}
@@ -33,9 +33,9 @@
 
                 <!-- Model -->
                 <div class="model label-select-group">
-                    <label for="model">Model:</label>
+                    <label for="model">{{ __('Model:') }}</label>
                     <select name="model" id="model" class="form-control">
-                        <option value="">Select Model</option>
+                        <option value="">{{ __('Select Model') }}</option>
                         @foreach ($models as $modelOption)
                             <option value="{{ $modelOption }}" {{ old('model') == $modelOption ? 'selected' : '' }}>
                                 {{ $modelOption }}
@@ -49,9 +49,9 @@
 
                 <!-- Year -->
                 <div class="year label-select-group">
-                    <label for="year">Year:</label>
+                    <label for="year">{{ __('Year:') }}</label>
                     <select name="year" id="year" class="form-control">
-                        <option value="">Select Year</option>
+                        <option value="">{{ __('Select Year') }}</option>
                         @foreach ($years as $yearOption)
                             <option value="{{ $yearOption }}" {{ old('year') == $yearOption ? 'selected' : '' }}>
                                 {{ $yearOption }}
@@ -65,11 +65,11 @@
 
                 <!-- Type -->
                 <div class="type label-select-group">
-                    <label for="type">Type:</label>
+                    <label for="type">{{ __('Type:') }}</label>
                     <select name="type" id="type">
                         @foreach ($typeOptions as $value => $optionLabel)
                             <option value="{{ $value }}" @if (old('type') == $value) selected @endif>
-                                {{ $optionLabel }}</option>
+                                {{ __($optionLabel) }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -79,11 +79,11 @@
 
                 <!-- Body -->
                 <div class="body label-select-group">
-                    <label for="body">Body:</label>
+                    <label for="body">{{ __('Body:') }}</label>
                     <select name="body" id="body">
                         @foreach ($bodyOptions as $value => $optionLabel)
                             <option value="{{ $value }}" @if (old('body') == $value) selected @endif>
-                                {{ $optionLabel }}</option>
+                                {{ __($optionLabel) }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -92,14 +92,14 @@
                 @enderror
 
                 <!-- Mileage -->
-                <input type="number" name="mileage" placeholder="Mileage (mi)" step="0.01" required
+                <input type="number" name="mileage" placeholder="{{ __('Mileage (mi)') }}" step="0.01" required
                     value="{{ old('mileage') }}">
                 @error('mileage')
                     <p class="error">{{ $message }}</p>
                 @enderror
 
                 <!-- VIN -->
-                <input type="text" name="vin" placeholder="VIN" required value="{{ old('vin') }}">
+                <input type="text" name="vin" placeholder="{{ __('VIN') }}" required value="{{ old('vin') }}">
                 @error('vin')
                     <p class="error">{{ $message }}</p>
                 @enderror
@@ -109,11 +109,11 @@
 
                 <!-- Cylinders -->
                 <div class="cylinders label-select-group">
-                    <label for="cylinders">Cylinders:</label>
+                    <label for="cylinders">{{ __('Cylinders:') }}</label>
                     <select name="cylinders" id="cylinders">
                         @foreach ($iceCylindersOptions as $value => $optionLabel)
                             <option value="{{ $value }}" @if (old('cylinder') == $value) selected @endif>
-                                {{ $optionLabel }}</option>
+                                {{ __($optionLabel) }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -122,21 +122,21 @@
                 @enderror
 
                 <!-- Engine Power -->
-                <input type="number" name="engine-power" placeholder="Engine Power (hp)" required min="50"
+                <input type="number" name="engine-power" placeholder="{{ __('Engine Power (hp)') }}" required min="50"
                     value="{{ old('engine-power') }}">
                 @error('engine-power')
                     <p class="error">{{ $message }}</p>
                 @enderror
 
                 <!-- Displacement -->
-                <input type="number" name="displacement" placeholder="Displacement (l)" step="0.1" required
+                <input type="number" name="displacement" placeholder="{{ __('Displacement (l)') }}" step="0.1" required
                     value="{{ old('displacement') }}" min="0.8" max="12">
                 @error('displacement')
                     <p class="error">{{ $message }}</p>
                 @enderror
 
                 <!-- Battery Capacity -->
-                <input type="number" name="battery-capacity" placeholder="Battery Capacity (kWh)" min="10"
+                <input type="number" name="battery-capacity" placeholder="{{ __('Battery Capacity (kWh)') }}" min="10"
                     step="0.1" required value="{{ old('battery-capacity') }}">
                 @error('battery-capacity')
                     <p class="error">{{ $message }}</p>
@@ -144,11 +144,11 @@
 
                 <!-- Transmission Type -->
                 <div class="transmission-type label-select-group">
-                    <label for="transmission-type">Transmission Type:</label>
+                    <label for="transmission-type">{{ __('Transmission Type:') }}</label>
                     <select name="transmission-type" id="transmission-type">
                         @foreach ($iceTransmissionTypeOptions as $value => $optionLabel)
                             <option value="{{ $value }}" @if (old('transmission-type') == $value) selected @endif>
-                                {{ $optionLabel }}</option>
+                                {{ __($optionLabel) }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -160,11 +160,11 @@
             <div class="create-form-part2">
                 <!-- Drive Type -->
                 <div class="drive-type label-select-group">
-                    <label for="drive-type">Drive Type:</label>
+                    <label for="drive-type">{{ __('Drive Type:') }}</label>
                     <select name="drive-type" id="drive-type">
                         @foreach ($driveTypeOptions as $value => $optionLabel)
                             <option value="{{ $value }}" @if (old('drive-type') == $value) selected @endif>
-                                {{ $optionLabel }}</option>
+                                {{ __($optionLabel) }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -174,11 +174,11 @@
 
                 <!-- Fuel Type -->
                 <div class="fuel-type label-select-group">
-                    <label for="fuel-type">Fuel Type:</label>
+                    <label for="fuel-type">{{ __('Fuel Type:') }}</label>
                     <select name="fuel-type" id="fuel-type">
                         @foreach ($iceFuelTypeOptions as $value => $optionLabel)
                             <option value="{{ $value }}" @if (old('fuel-type') == $value) selected @endif>
-                                {{ $optionLabel }}</option>
+                                {{ __($optionLabel) }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -188,11 +188,11 @@
 
                 <!-- Door Count -->
                 <div class="door-count label-select-group">
-                    <label for="door-count">Door count:</label>
+                    <label for="door-count">{{ __('Door count:') }}</label>
                     <select name="door-count" id="door-count">
                         @foreach ($doorCountOptions as $value => $optionLabel)
                             <option value="{{ $value }}" @if (old('door-count') == $value) selected @endif>
-                                {{ $optionLabel }}</option>
+                                {{ __($optionLabel) }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -202,11 +202,11 @@
 
                 <!-- Capacity -->
                 <div class="capacity label-select-group">
-                    <label for="capacity">Capacity:</label>
+                    <label for="capacity">{{ __('Capacity:') }}</label>
                     <select name="capacity" id="capacity">
                         @foreach ($capacityOptions as $value => $optionLabel)
                             <option value="{{ $value }}" @if (old('capacity') == $value) selected @endif>
-                                {{ $optionLabel }}</option>
+                                {{ __($optionLabel) }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -216,11 +216,11 @@
 
                 <!-- Crashes -->
                 <div class="crashes label-select-group">
-                    <label for="crashes">Crashes:</label>
+                    <label for="crashes">{{ __('Crashes:') }}</label>
                     <select name="crashes" id="crashes">
                         @foreach ($crashesOptions as $value => $optionLabel)
                             <option value="{{ $value }}" @if (old('crashes') == $value) selected @endif>
-                                {{ $optionLabel }}</option>
+                                {{ __($optionLabel) }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -229,21 +229,21 @@
                 @enderror
 
                 <!-- Crash Description -->
-                <input type="text" name="crash-description" id="crash-description" placeholder="Crash Description"
+                <input type="text" name="crash-description" id="crash-description" placeholder="{{ __('Crash Description') }}"
                     required value="{{ old('crash-description') }}">
                 @error('crash-description')
                     <p class="error">{{ $message }}</p>
                 @enderror
 
                 <!-- Bid Price -->
-                <input type="number" name="bid-price" placeholder="Starting Bid Price ($)" step="0.1" required
+                <input type="number" name="bid-price" placeholder="{{ __('Starting Bid Price ($)') }}" step="0.1" required
                     value="{{ old('bid-price') }}">
                 @error('bid-price')
                     <p class="error">{{ $message }}</p>
                 @enderror
 
                 <!-- Buy Price -->
-                <input type="number" name="buy-price" placeholder="Buy Price ($)" step="0.1" required
+                <input type="number" name="buy-price" placeholder="{{ __('Buy Price ($)') }}" step="0.1" required
                     value="{{ old('buy-price') }}">
                 @error('buy-price')
                     <p class="error">{{ $message }}</p>
@@ -251,11 +251,11 @@
 
                 <!-- Days To Sell -->
                 <div class="days-to-sell label-select-group">
-                    <label for="days-to-sell">Days To Sell:</label>
+                    <label for="days-to-sell">{{ __('Days To Sell:') }}</label>
                     <select name="days-to-sell" id="days-to-sell">
                         @foreach ($daysToSellOptions as $value => $optionLabel)
                             <option value="{{ $value }}" @if (old('days-to-sell') == $value) selected @endif>
-                                {{ $optionLabel }}</option>
+                                {{ __($optionLabel) }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -265,7 +265,7 @@
 
                 <!-- Main Image -->
                 <div class="main-image">
-                    <label for="file-main-image" id="main-image-label">Choose your car's main image</label>
+                    <label for="file-main-image" id="main-image-label">{{ __('Choose your car\'s main image') }}</label>
                     <input type="file" name="main-image" id="file-main-image">
                 </div>
                 @error('main-image')
@@ -274,7 +274,7 @@
 
                 <!-- Other Images -->
                 <div class="images">
-                    <label for="file-images" id="file-label">Choose your car images</label>
+                    <label for="file-images" id="file-label">{{ __('Choose your car images') }}</label>
                     <input type="file" name="images[]" id="file-images" multiple>
                 </div>
                 @error('images')
@@ -285,7 +285,7 @@
                 @endforeach
             </div>
         </div>
-        <button type="submit" class="create-button">Create</button>
+        <button type="submit" class="create-button">{{ __('Create') }}</button>
     </form>
     <script>
         window.oldInput = {

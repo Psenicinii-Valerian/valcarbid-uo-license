@@ -27,7 +27,7 @@ $(document).ready(function () {
             },
             success: function (data) {
                 // Populate the "Make" dropdown with available makes
-                makeDropdown.empty().append('<option value="">Select Make</option>');
+                makeDropdown.empty().append('<option value="">' + window.__("Select Make") + '</option>');
                 $.each(data.makes, function (index, make) {
                     makeDropdown.append($('<option>', {
                         value: make,
@@ -36,7 +36,7 @@ $(document).ready(function () {
                 });
 
                 // Populate the "Model" dropdown with available models
-                modelDropdown.empty().append('<option value="">Select Model</option>');
+                modelDropdown.empty().append('<option value="">' + window.__("Select Model") + '</option>');
                 $.each(data.models, function (index, model) {
                     modelDropdown.append($('<option>', {
                         value: model,
@@ -45,7 +45,7 @@ $(document).ready(function () {
                 });
 
                 // Populate the "Year" dropdown with available years
-                yearDropdown.empty().append('<option value="">Select Year</option>');
+                yearDropdown.empty().append('<option value="">' + window.__("Select Year") + '</option>');
                 $.each(data.years, function (index, year) {
                     yearDropdown.append($('<option>', {
                         value: year,

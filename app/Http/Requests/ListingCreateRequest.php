@@ -30,7 +30,7 @@ class ListingCreateRequest extends FormRequest
         $imagesDifferrentFromMainImage = function ($attribute, $value, $fail) {
             if (request()->has('main-image')) {
                 if (!app(\App\Rules\DifferentOriginalName::class, ['otherFile' => request()->file('main-image')])->passes($attribute, $value)) {
-                    $fail('You cannot include your main car image here.');
+                    $fail(__('You cannot include your main car image here.'));
                 }
             }
         };
@@ -46,7 +46,7 @@ class ListingCreateRequest extends FormRequest
                 ->where('year', $year)
                 ->exists();
             if (!$exists) {
-                $fail('The selected make, model, and year combination is invalid.');
+                $fail(__('The selected make, model, and year combination is invalid.'));
             }
         };
 
@@ -83,139 +83,139 @@ class ListingCreateRequest extends FormRequest
     {
         return [
             'make' => [
-                'required' => 'The make field is required.',
+                'required' => __('The make field is required.'),
             ],
             'model' => [
-                'required' => 'The model field is required.',
+                'required' => __('The model field is required.'),
             ],
             'year' => [
-                'required' => 'The year field is required.',
-                'integer' => 'The year must be an integer.',
-                'min' => 'The year must be at least :min.',
-                'max' => 'The year may not be greater than :max.',
+                'required' => __('The year field is required.'),
+                'integer' => __('The year must be an integer.'),
+                'min' => __('The year must be at least :min.'),
+                'max' => __('The year may not be greater than :max.'),
             ],
             'type' => [
-                'required' => 'The type field is required.',
-                'string' => 'The type must be a string.',
-                'in' => 'The selected type is invalid.',
+                'required' => __('The type field is required.'),
+                'string' => __('The type must be a string.'),
+                'in' => __('The selected type is invalid.'),
             ],
             'body' => [
-                'required' => 'The body field is required.',
-                'string' => 'The body must be a string.',
-                'in' => 'The selected body is invalid.',
+                'required' => __('The body field is required.'),
+                'string' => __('The body must be a string.'),
+                'in' => __('The selected body is invalid.'),
             ],
             'mileage' => [
-                'required' => 'The mileage field is required.',
-                'numeric' => 'The mileage must be a number.',
-                'min' => 'The mileage must be at least :min.',
-                'max' => 'The mileage may not be greater than :max.',
+                'required' => __('The mileage field is required.'),
+                'numeric' => __('The mileage must be a number.'),
+                'min' => __('The mileage must be at least :min.'),
+                'max' => __('The mileage may not be greater than :max.', ['max' => number_format(150000, 0, ',', '.')]),
             ],
             'vin' => [
-                'required' => 'The VIN field is required.',
-                'regex' => 'Invalid VIN format. Must be 17 characters, including uppercase letters and numbers.',
-                'unique' => 'This VIN has already been registered.'
+                'required' => __('The VIN field is required.'),
+                'regex' => __('Invalid VIN format. Must be 17 characters, including uppercase letters and numbers.'),
+                'unique' => __('This VIN has already been registered.')
             ],
-            'cylinders' => [    
-                'in' => 'The selected cylinders is invalid.',
+            'cylinders' => [
+                'in' => __('The selected cylinders is invalid.'),
             ],
             'engine-power' => [
-                'required' => 'The engine power field is required.',
-                'numeric' => 'The engine power must be a number.',
-                'min' => 'The engine power must be at least :min.',
-                'max' => 'The engine power may not be greater than :max.',
+                'required' => __('The engine power field is required.'),
+                'numeric' => __('The engine power must be a number.'),
+                'min' => __('The engine power must be at least :min.'),
+                'max' => __('The engine power may not be greater than :max.', ['max' => number_format(2000, 0, ',', '.')]),
             ],
             'displacement' => [
-                'numeric' => 'The displacement must be a number.',
-                'min' => 'The displacement must be at least :min.',
-                'max' => 'The displacement may not be greater than :max.',
+                'numeric' => __('The displacement must be a number.'),
+                'min' => __('The displacement must be at least :min.'),
+                'max' => __('The displacement may not be greater than :max.'),
             ],
             'battery-capacity' => [
-                'numeric' => 'The battery-capacity value must be a number.',
-                'min' => 'The selected battery-capacity must be at least :min kWh.',
-                'max' => 'The selected battery-capacity may not be greater than :max kWh.',
+                'numeric' => __('The battery-capacity value must be a number.'),
+                'min' => __('The selected battery-capacity must be at least :min kWh.'),
+                'max' => __('The selected battery-capacity may not be greater than :max kWh.'),
             ],
             'transmission-type' => [
-                'required' => 'The transmission type field is required.',
-                'string' => 'The transmission type must be a string.',
-                'in' => 'The selected transmission type is invalid.',
+                'required' => __('The transmission type field is required.'),
+                'string' => __('The transmission type must be a string.'),
+                'in' => __('The selected transmission type is invalid.'),
             ],
             'drive-type' => [
-                'required' => 'The drive type field is required.',
-                'string' => 'The drive type must be a string.',
-                'in' => 'The selected drive type is invalid.',
+                'required' => __('The drive type field is required.'),
+                'string' => __('The drive type must be a string.'),
+                'in' => __('The selected drive type is invalid.'),
             ],
             'fuel-type' => [
-                'required' => 'The fuel type field is required.',
-                'string' => 'The fuel type must be a string.',
-                'in' => 'The selected fuel type is invalid.',
+                'required' => __('The fuel type field is required.'),
+                'string' => __('The fuel type must be a string.'),
+                'in' => __('The selected fuel type is invalid.'),
             ],
             'door-count' => [
-                'required' => 'The door count field is required.',
-                'integer' => 'The door count must be an integer.',
-                'in' => 'The selected door count is invalid.',
+                'required' => __('The door count field is required.'),
+                'integer' => __('The door count must be an integer.'),
+                'in' => __('The selected door count is invalid.'),
             ],
             'capacity' => [
-                'required' => 'The capacity field is required.',
-                'integer' => 'The capacity must be an integer.',
-                'in' => 'The selected capacity is invalid.',
+                'required' => __('The capacity field is required.'),
+                'integer' => __('The capacity must be an integer.'),
+                'in' => __('The selected capacity is invalid.'),
             ],
             'crashes' => [
-                'required' => 'The crashes field is required.',
-                'in' => 'The selected crashes value is invalid.',
+                'required' => __('The crashes field is required.'),
+                'in' => __('The selected crashes value is invalid.'),
             ],
             'crash-description' => [
-                'string' => 'The crash description must be a string.',
-                'min' => 'The crash description must be at least :min characters.',
-                'max' => 'The crash description may not be greater than :max characters.',
+                'string' => __('The crash description must be a string.'),
+                'min' => __('The crash description must be at least :min characters.'),
+                'max' => __('The crash description may not be greater than :max characters.'),
             ],
             'ext-color' => [
-                'required' => 'The exterior color field is required.',
-                'string' => 'The exterior color must be a string.',
-                'min' => 'The exterior color must be at least :min characters.',
-                'max' => 'The exterior color may not be greater than :max characters.',
-                'regex' => 'The exterior color format is invalid. It should consist of lowercase letters with optional hyphens or spaces.',
+                'required' => __('The exterior color field is required.'),
+                'string' => __('The exterior color must be a string.'),
+                'min' => __('The exterior color must be at least :min characters.'),
+                'max' => __('The exterior color may not be greater than :max characters.'),
+                'regex' => __('The exterior color format is invalid. It should consist of lowercase letters with optional hyphens or spaces.'),
             ],
             'int-color' => [
-                'required' => 'The interior color field is required.',
-                'string' => 'The interior color must be a string.',
-                'min' => 'The interior color must be at least :min characters.',
-                'max' => 'The interior color may not be greater than :max characters.',
-                'regex' => 'The interior color format is invalid. It should consist of lowercase letters with optional hyphens or spaces.',
+                'required' => __('The interior color field is required.'),
+                'string' => __('The interior color must be a string.'),
+                'min' => __('The interior color must be at least :min characters.'),
+                'max' => __('The interior color may not be greater than :max characters.'),
+                'regex' => __('The interior color format is invalid. It should consist of lowercase letters with optional hyphens or spaces.'),
             ],
             'bid-price' => [
-                'required' => 'The starting bid price field is required.',
-                'integer' => 'The starting bid price must be an integer.',
-                'min' => 'The starting bid price must be at least :min$.',
-                'max' => 'The starting bid price may not be greater than :max$.',
+                'required' => __('The starting bid price field is required.'),
+                'integer' => __('The starting bid price must be an integer.'),
+                'min' => __('The starting bid price must be at least :min$.'),
+                'max' => __('The starting bid price may not be greater than :max$.', ['max' => number_format(1000000, 0, ',', '.')]),
             ],
             'buy-price' => [
-                'required' => 'The starting buy price field is required.',
-                'integer' => 'The starting buy price must be an integer.',
-                'min' => 'The starting buy price must be at least :min$.',
-                'gte' => 'The Buy Price must be greater than or equal to the Bid Price.',
-                'max' => 'The starting buy price may not be greater than :max$.',
+                'required' => __('The starting buy price field is required.'),
+                'integer' => __('The starting buy price must be an integer.'),
+                'min' => __('The starting buy price must be at least :min$.'),
+                'gte' => __('The Buy Price must be greater than or equal to the Bid Price.'),
+                'max' => __('The starting buy price may not be greater than :max$.', ['max' => number_format(5000000, 0, ',', '.')]),
             ],
             'days-to-sell' => [
-                'required' => 'The days to sell field is required.',
-                'integer' => 'The days to sell must be an integer.',
-                'min' => 'The days to sell must be at least :min.',
-                'max' => 'The days to sell may not be greater than :max.',
+                'required' => __('The days to sell field is required.'),
+                'integer' => __('The days to sell must be an integer.'),
+                'min' => __('The days to sell must be at least :min.'),
+                'max' => __('The days to sell may not be greater than :max.'),
             ],
             'main-image' => [
-                'required' => 'The main-image field is required.',
-                'mimes' => 'The main image must be a PNG, JPG, JPEG, or GIF file.',
-                'max' => 'The main image may not be greater than :max kilobytes.',
-                'dimensions' => 'The :attribute must have a minimum width of 640px, height of 480px while maintaining a 4:3 aspect ratio.',
+                'required' => __('The main-image field is required.'),
+                'mimes' => __('The main image must be a PNG, JPG, JPEG, or GIF file.'),
+                'max' => __('The main image may not be greater than :max kilobytes.'),
+                'dimensions' => __('The :attribute must have a minimum width of 640px, height of 480px while maintaining a 4:3 aspect ratio.'),
             ],
             'images' => [
-                'required' => 'The images field is required.',
-                'array' => 'The images must be an array.',
-                'min' => 'You should introduce at least :min images.',
-                'max' => 'You can introduce max :max images.'
+                'required' => __('The images field is required.'),
+                'array' => __('The images must be an array.'),
+                'min' => __('You should introduce at least :min images.'),
+                'max' => __('You can introduce max :max images.')
             ],
-            'images.*.mimes' => 'Each image must be a file of type: :values.',
-            'images.*.max' => 'Each image may not be greater than :max kilobytes in size.',
-            'images.*.dimensions' => 'Each image has to be at least 640px in width, 480px in height and maintan a 4:3 aspect ratio',
+            'images.*.mimes' => __('Each image must be a file of type: :values.'),
+            'images.*.max' => __('Each image may not be greater than :max kilobytes in size.'),
+            'images.*.dimensions' => __('Each image has to be at least 640px in width, 480px in height and maintan a 4:3 aspect ratio'),
         ];
     }
 }

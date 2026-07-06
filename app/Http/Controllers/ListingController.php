@@ -351,7 +351,7 @@ class ListingController extends Controller
             'expires_at' => $expireDateTime,
         ]);
 
-        return redirect('/')->with('success_msg', 'Listing created!');
+        return redirect('/')->with('success_msg', __('Listing created!'));
     }
 
     public function listingDetailedInfo(int $id) {
@@ -463,7 +463,7 @@ class ListingController extends Controller
 
             $bidLogController = new BidLogController();
             $bidLogController->createBidLog($bidLogData);
-            return redirect()->route('listing.show.detailed', ['id' => $car->id])->with('success_msg', 'Bid successfully placed!');
+            return redirect()->route('listing.show.detailed', ['id' => $car->id])->with('success_msg', __('Bid successfully placed!'));
         } else {
             $sellername = $seller->name . " " . $seller->surname;
 
@@ -526,7 +526,7 @@ class ListingController extends Controller
             $listing->delete();
             $car->delete();
         }
-        return redirect()->route('listings.show')->with('success_msg', 'Car successfully bought!');
+        return redirect()->route('listings.show')->with('success_msg', __('Car successfully bought!'));
     }
 
     public function showUserListings(Request $req) {

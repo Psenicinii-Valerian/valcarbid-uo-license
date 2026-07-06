@@ -10,17 +10,17 @@
         <script src='{{ asset('js/success-message-trigger.js') }}' defer></script>
     @endsection
 
-    @section('doc_title', 'Car Detailed Info')
+    @section('doc_title', __('Car Detailed Info'))
     @section('doc_body')
         @if (session('success_msg'))
             <p id="success" class="bid-success-msg"><i class="fa-solid fa-check"></i> {{ session('success_msg') }}</p>
         @endif
-        <h1 class="page-title">Car Details</h1>
+        <h1 class="page-title">{{ __('Car Details') }}</h1>
         <form action="{{ '/listing/' . $car->id }}" class="detailed-info-form" method="POST">
             @csrf
             <div class="car-detailed">
                 <div class="car-image">
-                    <img src="{{ asset($images[0]) }}" alt="Car Main Image" data-images='@json(array_map('asset', $images))'>
+                    <img src="{{ asset($images[0]) }}" alt="{{ __('Car Main Image') }}" data-images='@json(array_map('asset', $images))'>
                     <div class="arrow-btns">
                         <div class="left-arrow"><i class="fa-solid fa-angle-left"></i></div>
                         <div class="right-arrow"><i class="fa-solid fa-angle-right"></i></div>
@@ -35,31 +35,31 @@
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>State</h3>
+                                <h3>{{ __('State') }}</h3>
                                 <p>{{ $sellerState }}</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>City</h3>
+                                <h3>{{ __('City') }}</h3>
                                 <p>{{ $sellerCity }}</p>
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
-                                <h3>Body</h3>
+                                <h3>{{ __('Body') }}</h3>
                                 @if ($car->body === 'suv')
-                                    <p>SUV</p>
+                                    <p>{{ __('SUV') }}</p>
                                 @else
-                                    <p>{{ ucfirst($car->body) }}</p>
+                                    <p>{{ __(ucfirst($car->body)) }}</p>
                                 @endif
                             </div>
                             {{-- 4 --}}
                             <div class="car-detailed-info">
-                                <h3>Type</h3>
+                                <h3>{{ __('Type') }}</h3>
                                 <p>
                                     @if ($car->type === 'ev')
-                                        Electric Vehicle
+                                        {{ __('Electric Vehicle') }}
                                     @else
-                                        <p>Internal Combustion Engine</p>
+                                        <p>{{ __('Internal Combustion Engine') }}</p>
                                     @endif
                                 </p>
                             </div>
@@ -67,17 +67,17 @@
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Mileage</h3>
-                                <p>{{ $car->mileage }} mi</p>
+                                <h3>{{ __('Mileage') }}</h3>
+                                <p>@thousands($car->mileage) mi</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>VIN</h3>
+                                <h3>{{ __('VIN') }}</h3>
                                 <p>{{ $car->vin }}</p>
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
-                                <h3>Cylinders</h3>
+                                <h3>{{ __('Cylinders') }}</h3>
                                 @if (isset($car->cylinders))
                                     <p>{{ $car->cylinders }}</p>
                                 @else
@@ -86,7 +86,7 @@
                             </div>
                             {{-- 4 --}}
                             <div class="car-detailed-info">
-                                <h3>Engine Power</h3>
+                                <h3>{{ __('Engine Power') }}</h3>
                                 <p>{{ $car->engine_power }} hp</p>
                             </div>
                         </div>
@@ -94,64 +94,64 @@
                             {{-- 1 --}}
                             <div class="car-detailed-info">
                                 @if (isset($car->displacement))
-                                    <h3>Displacement</h3>
+                                    <h3>{{ __('Displacement') }}</h3>
                                     <p>{{ $car->displacement }} l</p>
                                 @else
-                                    <h3>Battery Capacity</h3>
+                                    <h3>{{ __('Battery Capacity') }}</h3>
                                     <p>{{ $car->battery_capacity }} kWh</p>
                                 @endif
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Transmission Type</h3>
+                                <h3>{{ __('Transmission Type') }}</h3>
                                 @if ($car->transmission === 'cvt')
-                                    <p>Continuously Variable Transmission</p>
+                                    <p>{{ __('Continuously Variable Transmission') }}</p>
                                 @else
-                                    <p>{{ ucwords($car->transmission_type) }}</p>
+                                    <p>{{ __(ucwords($car->transmission_type)) }}</p>
                                 @endif
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
-                                <h3>Drive Type</h3>
+                                <h3>{{ __('Drive Type') }}</h3>
                                 @if ($car->drive_type === 'awd')
-                                    <p>All-Wheel Drive</p>
+                                    <p>{{ __('All-Wheel Drive') }}</p>
                                 @elseif($car->drive_type === 'fwd')
-                                    <p>Front-Wheel Drive</p>
+                                    <p>{{ __('Front-Wheel Drive') }}</p>
                                 @elseif($car->drive_type === 'rwd')
-                                    <p>Rear-Wheel Drive</p>
+                                    <p>{{ __('Rear-Wheel Drive') }}</p>
                                 @else
-                                    <p>Four-Wheel Drive</p>
+                                    <p>{{ __('Four-Wheel Drive') }}</p>
                                 @endif
                             </div>
                             {{-- 4 --}}
                             <div class="car-detailed-info">
-                                <h3>Fuel Type</h3>
-                                <p>{{ ucfirst($car->fuel_type) }}</p>
+                                <h3>{{ __('Fuel Type') }}</h3>
+                                <p>{{ __(ucfirst($car->fuel_type)) }}</p>
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Door count</h3>
+                                <h3>{{ __('Door count') }}</h3>
                                 <p>{{ $car->door_count }}</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Capacity</h3>
-                                <p>{{ $car->capacity }} people</p>
+                                <h3>{{ __('Capacity') }}</h3>
+                                <p>{{ $car->capacity }} {{ __('people') }}</p>
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
-                                <h3>Crashes</h3>
+                                <h3>{{ __('Crashes') }}</h3>
                                 @if ($car->crashes == '1')
-                                    <p>Yes</p>
+                                    <p>{{ __('Yes') }}</p>
                                 @else
-                                    <p>No</p>
+                                    <p>{{ __('No') }}</p>
                                 @endif
                             </div>
                             {{-- 4 --}}
                             <div class="car-detailed-info">
-                                <h3>Crash Description</h3>
+                                <h3>{{ __('Crash Description') }}</h3>
                                 @if (isset($car->crash_description))
                                     <p class="crash-description-paragraph">{{ $car->crash_description }}</p>
                                 @else
@@ -163,21 +163,21 @@
                             {{-- 1 --}}
                             <div class="car-detailed-info">
                                 <div class="bid-price-info">
-                                    <h3>Bid Price</h3>
+                                    <h3>{{ __('Bid Price') }}</h3>
                                     <a href="car-bid-log/{{ $car->id }}" class="circle-info-link">
                                         <i class="fa-solid fa-circle-info"></i>
                                     </a>
                                 </div>
-                                <p>${{ $listing->bid_price }}</p>
+                                <p>$@thousands($listing->bid_price)</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Buy Price</h3>
-                                <p>${{ $listing->buy_price }}</p>
+                                <h3>{{ __('Buy Price') }}</h3>
+                                <p>$@thousands($listing->buy_price)</p>
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
-                                <h3>Current Bid Winner</h3>
+                                <h3>{{ __('Current Bid Winner') }}</h3>
                                 @if (isset($currentBidWinner))
                                     <p>{{ $currentBidWinner }}</p>
                                 @else
@@ -186,7 +186,7 @@
                             </div>
                             {{-- 4 --}}
                             <div class="car-detailed-info">
-                                <h3>Time Left</h3>
+                                <h3>{{ __('Time Left') }}</h3>
                                 <p id="expires-in">
                                     {{ sprintf('%02d', $timeRemaining['days']) }}d :
                                     {{ sprintf('%02d', $timeRemaining['hours']) }}h :
@@ -201,51 +201,51 @@
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>State</h3>
+                                <h3>{{ __('State') }}</h3>
                                 <p>{{ $sellerState }}</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>City</h3>
+                                <h3>{{ __('City') }}</h3>
                                 <p>{{ $sellerCity }}</p>
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
-                                <h3>Body</h3>
+                                <h3>{{ __('Body') }}</h3>
                                 @if ($car->body === 'suv')
-                                    <p>SUV</p>
+                                    <p>{{ __('SUV') }}</p>
                                 @else
-                                    <p>{{ ucfirst($car->body) }}</p>
+                                    <p>{{ __(ucfirst($car->body)) }}</p>
                                 @endif
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Type</h3>
+                                <h3>{{ __('Type') }}</h3>
                                 <p>
                                     @if ($car->type === 'ev')
-                                        Electric Vehicle
+                                        {{ __('Electric Vehicle') }}
                                     @else
-                                        <p>Internal Combustion Engine</p>
+                                        <p>{{ __('Internal Combustion Engine') }}</p>
                                     @endif
                                 </p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Mileage</h3>
-                                <p>{{ $car->mileage }} mi</p>
+                                <h3>{{ __('Mileage') }}</h3>
+                                <p>@thousands($car->mileage) mi</p>
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
-                                <h3>VIN</h3>
+                                <h3>{{ __('VIN') }}</h3>
                                 <p>{{ $car->vin }}</p>
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Cylinders</h3>
+                                <h3>{{ __('Cylinders') }}</h3>
                                 @if (isset($car->cylinders))
                                     <p>{{ $car->cylinders }}</p>
                                 @else
@@ -254,16 +254,16 @@
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Engine Power</h3>
+                                <h3>{{ __('Engine Power') }}</h3>
                                 <p>{{ $car->engine_power }} hp</p>
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
                                 @if (isset($car->displacement))
-                                    <h3>Displacement</h3>
+                                    <h3>{{ __('Displacement') }}</h3>
                                     <p>{{ $car->displacement }} l</p>
                                 @else
-                                    <h3>Battery Capacity</h3>
+                                    <h3>{{ __('Battery Capacity') }}</h3>
                                     <p>{{ $car->battery_capacity }} kWh</p>
                                 @endif
                             </div>
@@ -271,57 +271,57 @@
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Transmission Type</h3>
+                                <h3>{{ __('Transmission Type') }}</h3>
                                 @if ($car->transmission === 'cvt')
-                                    <p>CVT</p>
+                                    <p>{{ __('CVT') }}</p>
                                 @else
-                                    <p>{{ ucwords($car->transmission_type) }}</p>
+                                    <p>{{ __(ucwords($car->transmission_type)) }}</p>
                                 @endif
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Drive Type</h3>
+                                <h3>{{ __('Drive Type') }}</h3>
                                 @if ($car->drive_type === 'awd')
-                                    <p>All-Wheel Drive</p>
+                                    <p>{{ __('All-Wheel Drive') }}</p>
                                 @elseif($car->drive_type === 'fwd')
-                                    <p>Front-Wheel Drive</p>
+                                    <p>{{ __('Front-Wheel Drive') }}</p>
                                 @elseif($car->drive_type === 'rwd')
-                                    <p>Rear-Wheel Drive</p>
+                                    <p>{{ __('Rear-Wheel Drive') }}</p>
                                 @else
-                                    <p>Four-Wheel Drive</p>
+                                    <p>{{ __('Four-Wheel Drive') }}</p>
                                 @endif
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
-                                <h3>Fuel Type</h3>
-                                <p>{{ ucfirst($car->fuel_type) }}</p>
+                                <h3>{{ __('Fuel Type') }}</h3>
+                                <p>{{ __(ucfirst($car->fuel_type)) }}</p>
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Door count</h3>
+                                <h3>{{ __('Door count') }}</h3>
                                 <p>{{ $car->door_count }}</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Capacity</h3>
-                                <p>{{ $car->capacity }} people</p>
+                                <h3>{{ __('Capacity') }}</h3>
+                                <p>{{ $car->capacity }} {{ __('people') }}</p>
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
-                                <h3>Crashes</h3>
+                                <h3>{{ __('Crashes') }}</h3>
                                 @if ($car->crashes === '1')
-                                    <p>Yes</p>
+                                    <p>{{ __('Yes') }}</p>
                                 @else
-                                    <p>No</p>
+                                    <p>{{ __('No') }}</p>
                                 @endif
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Crash Description</h3>
+                                <h3>{{ __('Crash Description') }}</h3>
                                 @if (isset($car->crash_description))
                                     <p>{{ $car->crash_description }}</p>
                                 @else
@@ -331,23 +331,23 @@
                             {{-- 2 --}}
                             <div class="car-detailed-info">
                                 <div class="bid-price-info">
-                                    <h3>Bid Price</h3>
+                                    <h3>{{ __('Bid Price') }}</h3>
                                     <a href="car-bid-log/{{ $car->id }}" class="circle-info-link">
                                         <i class="fa-solid fa-circle-info"></i>
                                     </a>
                                 </div>
-                                <p>${{ $listing->bid_price }}</p>
+                                <p>$@thousands($listing->bid_price)</p>
                             </div>
                             {{-- 3 --}}
                             <div class="car-detailed-info">
-                                <h3>Buy Price</h3>
-                                <p>${{ $listing->buy_price }}</p>
+                                <h3>{{ __('Buy Price') }}</h3>
+                                <p>$@thousands($listing->buy_price)</p>
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Current Bid Winner</h3>
+                                <h3>{{ __('Current Bid Winner') }}</h3>
                                 @if (isset($currentBidWinner))
                                     <p>{{ $currentBidWinner }}</p>
                                 @else
@@ -356,7 +356,7 @@
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Time Left</h3>
+                                <h3>{{ __('Time Left') }}</h3>
                                 <p id="expires-in">
                                     {{ sprintf('%02d', $timeRemaining['days']) }}d :
                                     {{ sprintf('%02d', $timeRemaining['hours']) }}h :
@@ -371,42 +371,42 @@
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>State</h3>
+                                <h3>{{ __('State') }}</h3>
                                 <p>{{ $sellerState }}</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>City</h3>
+                                <h3>{{ __('City') }}</h3>
                                 <p>{{ $sellerCity }}</p>
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Type</h3>
+                                <h3>{{ __('Type') }}</h3>
                                 <p>
                                     @if ($car->type === 'ev')
-                                        Electric Vehicle
+                                        {{ __('Electric Vehicle') }}
                                     @else
-                                        <p>Internal Combustion Engine</p>
+                                        <p>{{ __('Internal Combustion Engine') }}</p>
                                     @endif
                                 </p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Mileage</h3>
-                                <p>{{ $car->mileage }} mi</p>
+                                <h3>{{ __('Mileage') }}</h3>
+                                <p>@thousands($car->mileage) mi</p>
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>VIN</h3>
+                                <h3>{{ __('VIN') }}</h3>
                                 <p>{{ $car->vin }}</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Cylinders</h3>
+                                <h3>{{ __('Cylinders') }}</h3>
                                 @if (isset($car->cylinders))
                                     <p>{{ $car->cylinders }}</p>
                                 @else
@@ -417,16 +417,16 @@
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Engine Power</h3>
+                                <h3>{{ __('Engine Power') }}</h3>
                                 <p>{{ $car->engine_power }} hp</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
                                 @if (isset($car->displacement))
-                                    <h3>Displacement</h3>
+                                    <h3>{{ __('Displacement') }}</h3>
                                     <p>{{ $car->displacement }} l</p>
                                 @else
-                                    <h3>Battery Capacity</h3>
+                                    <h3>{{ __('Battery Capacity') }}</h3>
                                     <p>{{ $car->battery_capacity }} kWh</p>
                                 @endif
                             </div>
@@ -434,59 +434,59 @@
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Transmission Type</h3>
+                                <h3>{{ __('Transmission Type') }}</h3>
                                 @if ($car->transmission === 'cvt')
-                                    <p>Continuously Variable Transmission</p>
+                                    <p>{{ __('Continuously Variable Transmission') }}</p>
                                 @else
-                                    <p>{{ ucwords($car->transmission_type) }}</p>
+                                    <p>{{ __(ucwords($car->transmission_type)) }}</p>
                                 @endif
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Drive Type</h3>
+                                <h3>{{ __('Drive Type') }}</h3>
                                 @if ($car->drive_type === 'awd')
-                                    <p>All-Wheel Drive</p>
+                                    <p>{{ __('All-Wheel Drive') }}</p>
                                 @elseif($car->drive_type === 'fwd')
-                                    <p>Front-Wheel Drive</p>
+                                    <p>{{ __('Front-Wheel Drive') }}</p>
                                 @elseif($car->drive_type === 'rwd')
-                                    <p>Rear-Wheel Drive</p>
+                                    <p>{{ __('Rear-Wheel Drive') }}</p>
                                 @else
-                                    <p>Four-Wheel Drive</p>
+                                    <p>{{ __('Four-Wheel Drive') }}</p>
                                 @endif
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Fuel Type</h3>
-                                <p>{{ ucfirst($car->fuel_type) }}</p>
+                                <h3>{{ __('Fuel Type') }}</h3>
+                                <p>{{ __(ucfirst($car->fuel_type)) }}</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Door count</h3>
+                                <h3>{{ __('Door count') }}</h3>
                                 <p>{{ $car->door_count }}</p>
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Capacity</h3>
-                                <p>{{ $car->capacity }} people</p>
+                                <h3>{{ __('Capacity') }}</h3>
+                                <p>{{ $car->capacity }} {{ __('people') }}</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Crashes</h3>
+                                <h3>{{ __('Crashes') }}</h3>
                                 @if ($car->crashes === '1')
-                                    <p>Yes</p>
+                                    <p>{{ __('Yes') }}</p>
                                 @else
-                                    <p>No</p>
+                                    <p>{{ __('No') }}</p>
                                 @endif
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Crash Description</h3>
+                                <h3>{{ __('Crash Description') }}</h3>
                                 @if (isset($car->crash_description))
                                     <p>{{ $car->crash_description }}</p>
                                 @else
@@ -496,23 +496,23 @@
                             {{-- 2 --}}
                             <div class="car-detailed-info">
                                 <div class="bid-price-info">
-                                    <h3>Bid Price</h3>
+                                    <h3>{{ __('Bid Price') }}</h3>
                                     <a href="car-bid-log/{{ $car->id }}" class="circle-info-link">
                                         <i class="fa-solid fa-circle-info"></i>
                                     </a>
                                 </div>
-                                <p>${{ $listing->bid_price }}</p>
+                                <p>$@thousands($listing->bid_price)</p>
                             </div>
                         </div>
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Buy Price</h3>
-                                <p>${{ $listing->buy_price }}</p>
+                                <h3>{{ __('Buy Price') }}</h3>
+                                <p>$@thousands($listing->buy_price)</p>
                             </div>
                             {{-- 2 --}}
                             <div class="car-detailed-info">
-                                <h3>Current Bid Winner</h3>
+                                <h3>{{ __('Current Bid Winner') }}</h3>
                                 @if (isset($currentBidWinner))
                                     <p>{{ $currentBidWinner }}</p>
                                 @else
@@ -523,7 +523,7 @@
                         <div class="car-detailed-info-section">
                             {{-- 1 --}}
                             <div class="car-detailed-info">
-                                <h3>Time Left</h3>
+                                <h3>{{ __('Time Left') }}</h3>
                                 <p id="expires-in">
                                     {{ sprintf('%02d', $timeRemaining['days']) }}d :
                                     {{ sprintf('%02d', $timeRemaining['hours']) }}h :
@@ -537,15 +537,15 @@
                         <div class="bid-buy-btns">
                             {{--  Bid --}}
                             <div class="bid-btns">
-                                <input type="number" name="new-bid" min="{{ $listing->bid_price + 1 }}"
-                                    placeholder="Enter Bid" id="bid-input">
-                                <button type="submit" class="bid-btn" id="bid-button" hidden>BID</button>
+                                <input type="text" inputmode="numeric" name="new-bid" data-min="{{ $listing->bid_price + 1 }}"
+                                    placeholder="{{ __('Enter Bid') }}" id="bid-input">
+                                <button type="submit" class="bid-btn" id="bid-button" hidden>{{ __('BID') }}</button>
                                 @error('new-bid')
                                     <p class="error">{{ $message }}</p>
                                 @enderror
                             </div>
                             {{-- Buy --}}
-                            <button type="submit" class="buy-btn">BUY</button>
+                            <button type="submit" class="buy-btn">{{ __('BUY') }}</button>
                             <input type="hidden" name="buy-order" value="{{ $listing->buy_price }}">
                             <input type="hidden" name="car-id" value="{{ $car->id }}">
                             <input type="hidden" name="user-id" value="{{ $userID }}">
@@ -554,7 +554,7 @@
                         </div>
                     @else
                         <div class="listing-owner">
-                            <h3>You're the owner of this listing!</h3>
+                            <h3>{{ __("You're the owner of this listing!") }}</h3>
                         </div>
                     @endif
                 </div>

@@ -342,6 +342,10 @@
             width: 135px;
             box-sizing: border-box;
             padding-left: 20px;
+            :lang(ro) & {
+                width: 175px;
+                padding-left: 14px;
+            }
         }
     }
 
@@ -350,8 +354,11 @@
         letter-spacing: 2px;
         background-color: black;
         color: white;
-        width: 70px;
+        // Size to the label so longer translations are not clipped
+        min-width: 70px;
+        padding: 0 14px;
         height: 41.6px;
+        white-space: nowrap;
     }
 }
 

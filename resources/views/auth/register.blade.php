@@ -40,7 +40,7 @@
                 <select id="state" name="state"
                     class="block mt-1 w-full form-select border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm"
                     required>
-                    <option value="">Select a state</option>
+                    <option value="">{{ __('Select a state') }}</option>
                     @foreach ($states as $state)
                         <option value="{{ $state->id }}" {{ old('state') == $state->id ? 'selected' : '' }}>
                             {{ $state->name }}
@@ -54,7 +54,7 @@
                 <select id="city" name="city"
                     class="block mt-1 w-full form-select border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm"
                     required data-selected-city="{{ old('city') }}">
-                    <option value="">Select a city</option>
+                    <option value="">{{ __('Select a city') }}</option>
                     @foreach ($cities as $city)
                         @if (old('state') == $city->state_id)
                             <option value="{{ $city->id }}" {{ old('city') == $city->id ? 'selected' : '' }}>

@@ -3,12 +3,12 @@
     <div class="about-us" id="contactID">
         <div class="valcarbid-info">
             <p class="agency-title"><b>V A L C A R B I D</b></p>
-            <p>We're a cars auction agency focused on creative and results-driven solutions.</p>
-            <p>We measure our success by the results we drive for our clients.</p>
+            <p>{{ __('We\'re a cars auction agency focused on creative and results-driven solutions.') }}</p>
+            <p>{{ __('We measure our success by the results we drive for our clients.') }}</p>
         </div>
 
         <div class="keep-in-touch">
-            <h3>KEEP IN TOUCH</h3>
+            <h3>{{ __('KEEP IN TOUCH') }}</h3>
             <ul class="contact-links">
                 <li>
                     <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -30,19 +30,19 @@
         </div>
 
         <div class="featured-links">
-            <h3>FEATURED LINKS</h3>
+            <h3>{{ __('FEATURED LINKS') }}</h3>
             <ul class="list-links">
                 <li>
-                    <a href="listing-create">Create A New Car Listing</a>
+                    <a href="/listing-create">{{ __('Create A New Car Listing') }}</a>
                 </li>
                 <li>
-                    <a href="user-bids">Go To Your Bidded Listings</a>
+                    <a href="/user-bids">{{ __('Go To Your Bidded Listings') }}</a>
                 </li>
                 <li>
-                    <a href="user-listings">Go To Your Posted Listings</a>
+                    <a href="/user-listings">{{ __('Go To Your Posted Listings') }}</a>
                 </li>
                 <li>
-                    <a href="user-messages">Go To Your Messages</a>
+                    <a href="/user-messages">{{ __('Go To Your Messages') }}</a>
                 </li>
             </ul>
         </div>
@@ -53,14 +53,14 @@
     <section class="copyright">
         <div class="social-and-copyrights">
             <div class="socials">
-                <a class="twitter-bg social-item" href="https:/twitter.com"><i class="fa-brands fa-twitter"></i></a>
-                <a class="facebook-bg social-item" href="https:/facebook.com"><i class="fa-brands fa-facebook"></i></a>
-                <a class="pinterest-bg social-item" href="https:/pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
-                <a class="linkedin-bg social-item" href="https:/linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="twitter-bg social-item" href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a class="facebook-bg social-item" href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a class="pinterest-bg social-item" href="https://pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
+                <a class="linkedin-bg social-item" href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
             </div>
             <div class="rights-reserved">
                 <p>@V A L C A R B I D</p>
-                <p>All RIGHTS RESERVED</p>
+                <p>{{ __('All RIGHTS RESERVED') }}</p>
             </div>
         </div>
 

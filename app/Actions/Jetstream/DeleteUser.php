@@ -18,15 +18,15 @@ class DeleteUser implements DeletesUsers
     public function delete(User $user): bool
     {
         if (Car::where('seller_id', $user->id)->exists()) {
-            $warningMessage = "You can't' delete your account with active listings!";
+            $warningMessage = __("You can't' delete your account with active listings!");
             session()->flash('warning', $warningMessage);
             return false;
         } elseif (BidLog::where('bidder_id', $user->id)->exists()) {
-            $warningMessage = "You can't delete your account while involved in a bid!";
+            $warningMessage = __("You can't delete your account while involved in a bid!");
             session()->flash('warning', $warningMessage);
             return false;
         } elseif (UserMessages::where('seller_id', $user->id)->orWhere('winner_id', $user->id)->exists()) {
-            $warningMessage = "You can't delete your account while a deal is ongoing!";
+            $warningMessage = __("You can't delete your account while a deal is ongoing!");
             session()->flash('warning', $warningMessage);
             return false;
         }

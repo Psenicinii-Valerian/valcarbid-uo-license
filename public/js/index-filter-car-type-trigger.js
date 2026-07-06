@@ -12,47 +12,47 @@ const fuelCurrentValue = fuelTypeSelect.value;
 const typeOptions = {
     ev: {
         transmission: [
-            { value: "any", label: "Any" },
-            { value: "automatic transmission", label: "Automatic" },
+            { value: "any", label: window.__("Any") },
+            { value: "automatic transmission", label: window.__("Automatic") },
         ],
         fuel: [
-            { value: "any", label: "Any" },
-            { value: "electricity", label: "Electricity" },
+            { value: "any", label: window.__("Any") },
+            { value: "electricity", label: window.__("Electricity") },
         ],
         hideDisplacement: true, // Hide displacement filter for EV
         hideBatteryCapacity: false, // Show battery capacity filter for EV
     },
     ice: {
         transmission: [
-            { value: "any", label: "Any" },
-            { value: "automatic transmission", label: "Automatic" },
-            { value: "manual transmission", label: "Manual" },
-            { value: "cvt", label: "CVT" },
+            { value: "any", label: window.__("Any") },
+            { value: "automatic transmission", label: window.__("Automatic") },
+            { value: "manual transmission", label: window.__("Manual") },
+            { value: "cvt", label: window.__("CVT") },
         ],
         fuel: [
-            { value: "any", label: "Any" },
-            { value: "gasoline", label: "Gasoline" },
-            { value: "diesel", label: "Diesel" },
-            { value: "ethanol", label: "Ethanol" },
-            { value: "hybrid", label: "Hybrid" },
+            { value: "any", label: window.__("Any") },
+            { value: "gasoline", label: window.__("Gasoline") },
+            { value: "diesel", label: window.__("Diesel") },
+            { value: "ethanol", label: window.__("Ethanol") },
+            { value: "hybrid", label: window.__("Hybrid") },
         ],
         hideDisplacement: false, // Show displacement filter for ICE
         hideBatteryCapacity: true, // Hide battery capacity filter for ICE
     },
     any: {
         transmission: [
-            { value: "any", label: "Any" },
-            { value: "automatic transmission", label: "Automatic" },
-            { value: "manual transmission", label: "Manual" },
-            { value: "cvt", label: "CVT" },
+            { value: "any", label: window.__("Any") },
+            { value: "automatic transmission", label: window.__("Automatic") },
+            { value: "manual transmission", label: window.__("Manual") },
+            { value: "cvt", label: window.__("CVT") },
         ],
         fuel: [
-            { value: "any", label: "Any" },
-            { value: "gasoline", label: "Gasoline" },
-            { value: "diesel", label: "Diesel" },
-            { value: "ethanol", label: "Ethanol" },
-            { value: "hybrid", label: "Hybrid" },
-            { value: "electricity", label: "Electricity" },
+            { value: "any", label: window.__("Any") },
+            { value: "gasoline", label: window.__("Gasoline") },
+            { value: "diesel", label: window.__("Diesel") },
+            { value: "ethanol", label: window.__("Ethanol") },
+            { value: "hybrid", label: window.__("Hybrid") },
+            { value: "electricity", label: window.__("Electricity") },
         ],
         hideDisplacement: false, // Show displacement filter for "any"
         hideBatteryCapacity: false, // Show battery capacity filter for "any"

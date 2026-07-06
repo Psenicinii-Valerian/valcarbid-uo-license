@@ -8,6 +8,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\CarDatabaseController;
 use App\Http\Controllers\BidLogController;
 use App\Http\Controllers\UserMessagesController;
+use App\Http\Controllers\LocaleController;
 use App\Actions\Fortify\UpdateUserProfileInformation;
 
 /*
@@ -22,6 +23,8 @@ use App\Actions\Fortify\UpdateUserProfileInformation;
 */
 
 Route::get('/', [ListingController::class, "showListings"])->name('listings.show');
+
+Route::get('/locale/{locale}', [LocaleController::class, 'switch'])->name('locale.switch');
 
 Route::middleware([
     'auth:sanctum',     

@@ -25,7 +25,7 @@ class CreateNewUser implements CreatesNewUsers
 
         $stateValidationRule = function ($attribute, $value, $fail) {
             if (!State::where('id', $value)->exists()) {
-                $fail('The selected state is invalid.');
+                $fail(__('The selected state is invalid.'));
             }
         };
 
@@ -33,7 +33,7 @@ class CreateNewUser implements CreatesNewUsers
             if (!City::where('id', $value)
                 ->where('state_id', $input['state'])
                 ->exists()) {
-                $fail('The selected city is invalid or does not match the state.');
+                $fail(__('The selected city is invalid or does not match the state.'));
             }
         };
 
@@ -51,34 +51,34 @@ class CreateNewUser implements CreatesNewUsers
             'terms' => Jetstream::hasTermsAndPrivacyPolicyFeature() ? ['accepted', 'required'] : '',
         ],
         [
-            "name.required" => "Please provide your name.",
-            "name.min" => "Your name must be at least 3 characters long.",
-            "name.max" => "Your name cannot exceed 255 characters.",
-            "name.regex" => "Your name must start with an uppercase letter, followed by lowercase letters, and may include periods, or spaces between words.",
-            
-            "surname.required" => "Please provide your surname.",
-            "surname.min" => "Your surname must be at least 3 characters long.",
-            "surname.max" => "Your surname cannot exceed 255 characters.",
-            "surname.regex" => "Your surname must start with an uppercase letter, followed by lowercase letters, and may include periods, or spaces between words.",
-            
-            "email.required" => "Please enter your email address.",
-            "email.min" => "Your email address must be at least 10 characters long.",
-            "email.max" => "Your email address cannot exceed 255 characters.",
-            "email.regex" => "Please enter a valid email address.",
-            "email.unique" => "This email has already been registered.",
-            
-            "phone.required" => "Please provide your phone number.",
-            "phone.regex" => "Phone number must consist of exactly 10 digits.",
-            "phone.unique" => "This phone number has already been registered.",
-            
-            "state.required" => "Please provide your state.",
-            
-            "city.required" => "Please provide your city.",
-            
-            "password.required" => "Please enter a password.",
-            
-            "terms.accepted" => "You must accept the terms and conditions.",
-            "terms.required" => "Please accept the terms and conditions.",
+            "name.required" => __("Please provide your name."),
+            "name.min" => __("Your name must be at least 3 characters long."),
+            "name.max" => __("Your name cannot exceed 255 characters."),
+            "name.regex" => __("Your name must start with an uppercase letter, followed by lowercase letters, and may include periods, or spaces between words."),
+
+            "surname.required" => __("Please provide your surname."),
+            "surname.min" => __("Your surname must be at least 3 characters long."),
+            "surname.max" => __("Your surname cannot exceed 255 characters."),
+            "surname.regex" => __("Your surname must start with an uppercase letter, followed by lowercase letters, and may include periods, or spaces between words."),
+
+            "email.required" => __("Please enter your email address."),
+            "email.min" => __("Your email address must be at least 10 characters long."),
+            "email.max" => __("Your email address cannot exceed 255 characters."),
+            "email.regex" => __("Please enter a valid email address."),
+            "email.unique" => __("This email has already been registered."),
+
+            "phone.required" => __("Please provide your phone number."),
+            "phone.regex" => __("Phone number must consist of exactly 10 digits."),
+            "phone.unique" => __("This phone number has already been registered."),
+
+            "state.required" => __("Please provide your state."),
+
+            "city.required" => __("Please provide your city."),
+
+            "password.required" => __("Please enter a password."),
+
+            "terms.accepted" => __("You must accept the terms and conditions."),
+            "terms.required" => __("Please accept the terms and conditions."),
         ])->validate();
 
         return User::create([
